@@ -24,7 +24,7 @@ body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;       
+  z-index: -1;
 }
 
 .navbar-default {
@@ -41,6 +41,52 @@ body {
     font-weight: 300;
 }
 
+
+/* Adapted from the Bootstrap docs for sidebar navigation + scrollspy */
+.sidenav .nav > li > a {
+  display: block;
+  padding: 5px 20px 5px 0px;
+}
+.sidenav .nav > li > a:hover,
+.sidenav .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+  border-right: 1px solid #990615;
+}
+.sidenav .nav > .active > a,
+.sidenav .nav > .active:hover > a,
+.sidenav .nav > .active:focus > a {
+  font-weight: bold;
+  background-color: transparent;
+  border-right: 1px solid #990615;
+}
+
+/* Nav: second level */
+.sidenav .nav .nav {
+    margin-bottom: 8px;
+}
+
+.sidenav .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  font-size: 90%;
+}
+
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+  background-color: #7D0612;
+}
+
+@media(max-width:1000px){
+  .sidenav.affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+}
+
+
 .lab-slide {
   margin-bottom: 2em;
 }
@@ -55,4 +101,12 @@ body {
 
 .lab-slide video {
   border: 1px solid gray;
+}
+
+.navbar-default .navbar-brand{
+  font-size: 15px;
+}
+
+.navbar-collapse{
+  font-size: 12px;
 }
