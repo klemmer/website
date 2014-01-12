@@ -110,3 +110,7 @@ body {
 .navbar-collapse{
   font-size: 12px;
 }
+
+#faq .row{
+  margin-top: 10px;
+}
