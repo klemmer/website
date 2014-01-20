@@ -101,6 +101,7 @@ body {
 
 .lab-slide video {
   border: 1px solid gray;
+  height: 200px;
 }
 
 .navbar-default .navbar-brand{

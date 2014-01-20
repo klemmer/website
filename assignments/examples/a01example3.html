@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduction to Human-Computer Interaction: Assignment">
+    <title>Intro to HCI: Assignment 1, Example 3</title>
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../../css/hci.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    IntroHCI assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something
+        to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Intro to HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="../../index.html">Home</a></li>
+            <li><a href="../../index.html#calendar">Calendar</a></li>
+            <li><a href="../../lab/">Lab</a></li>
+            <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../logistics.html#prereqs">Prerequisites</a></li>
+                  <li><a href="../../logistics.html#lab">Lab</a></li>
+                  <li><a href="../../logistics.html#grading">Grading</a></li>
+                  <li><a href="../logistics.html#attendance">Attendance</a></li>
+                  <li><a href="../../logistics.html#cs77">CS 77</a></li>
+                  <li><a href="../../logistics.html#faq">FAQ</a></li>
+                </ul>
+            </li>            
+            <li><a href="http://www.coursera.org">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="staffemailorpiazzaforum@university.edu">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                    
+                    <div>
+                        <h1>Assignment 1, Example 3</h1>
+                    </div>
+
+                <div id="brainstormlist" class="sidenav-anchor">
+                    <h2>Brainstorming</h2>
+                    <ol>
+                        <li>(POV/NEED: Productivity) An app that tells you the nutritional value of what’s in your basket, or offers healthier options</li>
+                        <li>(POV/NEED: Productivity) An app or iPad near the line that would let people compute the rough total cost of the items that they plan to buy</li>
+                        <li>(POV/NEED: Productivity) A last minute bagging station where you can bag your fruits or vegetables
+                        <li>(POV/NEED: Productivity) An exercise app that based off what’s in your cart will give you workouts to do (i.e. do five reps of apples)
+                        <li>(POV/NEED: Productivity) Tech Corner: internet access and moving outlet plugs with the chargers that allow customers to charge their phones in line
+                        <li>(POV/NEED: Productivity) Submit your food or drink order while in line so that when you pay your food or drink is ready</li>
+                        <li>(POV/NEED: Productivity) An app that allows you to check-in to the store for coupons</li>
+                        <li>(POV/NEED: Avoid Lines) An app that allows you to scan your items as you place them in your cart and pay through your phone</li>
+                        <li>(POV/NEED: Avoid Lines) An app that tells you how many people are in line and how long the estimated wait time is</li>
+                        <li>(POV/NEED: Avoid Lines) An app that tells you when registers are open and which ones</li>
+                        <li>(POV/NEED: Avoid Lines) Pitstop style lines: one cashier per area of the store (i.e a fruit/vegetable checkout) to reduce long waits and promote shorter lines</li>
+                        <li>(POV/NEED: Comfort) Having chairs in a line to allow for customers to sit down while waiting</li>
+                        <li>(POV/NEED: Entertainment) A large screen tv that constantly plays movies or tv shows</li>
+                        <li>(POV/NEED: Entertainment) An app that allows you to play games with other people in line (not limited to location, just anyone in a line)</li>
+                        <li>(POV/NEED: Entertainment) An app or even a poster in the store that has brain teasers, fun facts, conversation starters</li>
+                        <li>(POV/NEED: Entertainment) Every cashier has a different “project” that everyone in line contributes to (i.e. write a story together)</li>
+                        <li>(POV/NEED: Entertainment/ Productivity) A self-diagnosing eye exam Have an eye chart mounted where the cashier is and indicators of your vision (i.e 20/20) on the ground.</li>
+                        <li>(POV/NEED: Entertainment) Have food samples along the line for customers, could also be beneficial for businesses since customers may impulse buy</li>
+                        <li>(POV/NEED: Entertainment) An app that allows you to select a topic you want to chat about and pairs you up with someone else standing in a line</li>
+                        <li>(POV/NEED: Entertainment) An app or iPad near the line that allows you to vote on different topics (could be serious like politics or silly questions), with a corresponding large screen TV that tells you what the demographics of the line have been</li>
+                    </ol>
+                </div>
+
+                <div id="prototypes" class="sidenav-anchor">
+                    <h2>Prototypes</h2>
+                    <p>Idea 1: "Weight in Line!" An exercise app that based off what’s in your cart will give you workouts to do (i.e. do five reps of apples)<br />How to prototype: A sequence of index cards that the user can follow along demonstrating various application screens/features<br />Why: This app idea allows people to be productive by working on their overall health. Sine they're standing in line anyway, they might as well burn a couple of calories. It caters for people's desires to be productive in line by allowing for their own self-improvement and progress through seeing how many calories they can burn on the spot.</p>
+                    <p><a href="./images/a01e3p1.jpg"><img src="./images/a01e3p1.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                    <p>Idea 2: "Power Line" Tech Corner: internet access and moving outlet plugs with the chargers that allow customers to charge their phones in line<br />How to Prototype: Bring a power strip and create wifi hotspot by tethering from my phone to create a "tech corner" where I get a friend to follow the people as they move in line, like a "sliding outlet" would, allowing people to charge their phones while waiting in line.<br />Why: Since most people are on their phones in line anyway, for longer lines this could be productive because it allows them to charge their phone while using it. It appeals to people's needs to be productive while offering fast,reliable internet to support the functions they are already doing on their phone (i.e Facebook, Instagram, or just browsing the web).</p>
+                    <p><a href="./images/a01e3p2.jpg"><img src="./images/a01e3p2.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                </div>
+                
+                <div id="testing" class="sidenav-anchor">
+                    <h2>Testing</h2>
+                    <p>Idea 2 User Testing</p>
+                    <p><a href="./images/a01e3p3.jpg"><img src="./images/a01e3p3.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                    <p><a href="./images/a01e3p4.jpg"><img src="./images/a01e3p4.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                </div>
+                
+                <div id="insights" class="sidenav-anchor">
+                    <h2>Insights</h2>
+                    <p>Idea 1 User Insights:</p>
+                    <ul>
+                        <li>Many people thought the line wait felt shorter just because there was an app to distract them -- it seemed like the content of the app almost didn’t matter, it was just the idea of a distraction.</li>
+                        <li>When asking to test the prototype, it appealed more to males than females -- females didn’t want to lift items they had, were more self conscious so it seemed like it would be hard to reach this demographic. A majority of the users said it felt awkward because they were the only one in line “lifting”, maybe it would be more successful if it was more like a “social network."</li>
+                        <li>Some of the people didn’t want to participate because they were tired from walking around and didn’t want to do additional workouts</li>
+                        <li>Some people suggested that since the “camera screen” looked like Instagram, there should be an option to posting to Instagram -- showing that people relate similar “photo capturing ideas” to others that already exist. Maybe this app would be more successful if I linked to other social media that existed?</li>
+                        <li>When I was trying to find people to approach, I noticed that a lot of people in line were just holding one item to purchase, eliminating the need to take a picture of their basket. When I asked people who held items in their hand and no basket, they didn’t really understand why they had to take a picture -- meaning the app could be overly complex if users didn’t have many items, should simplify.</li>
+                        <li>Most people liked the idea of the calorie counter, but after the testing, some told me they would want to see total calories they burned over a certain amount of time. It seemed like “30 calories” wasn’t really motivating so they needed a more substantial amount to look forward to.</li>
+                        <li>One particular person I asked (lifting apples) said there wouldn’t he felt there wasn’t really a lot of room to do the exercises -- so the exercises should be more compact. </li>
+                    </ul>
+                    <p>Idea 2 User Insights:</p>
+                    <ul>
+                        <li>Some people didn’t trust the power source, they thought I would do something to their phones when they plugged them in, perhaps if it was structured like a “charging station” it would be more trustworthy.</li>
+                        <li>A lot of people felt that the line wasn’t long enough to even get sufficient charge to their phones or even connect to the internet source; this “power line” would be more successful in really long lines.</li>
+                        <li>People appreciated the diversity of the cable cords that were provided (Android/Apple), it seems like by having the cables already there people would be more inclined to use the station.</li>
+                        <li>Other users said the cable wasn’t long enough and to connect they felt the line had to be “scrunched up”, to fix this there could possibly be like rails with moving outlets to move with the line.</li>
+                        <li>People suggested labeling the wires so they knew which ones would work their devices, implying as long as they had easy and simple access so that they knew which cables.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/hci.js"></script>
+  </body>
+</html>
