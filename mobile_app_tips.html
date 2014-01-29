@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduction to Human-Computer Interaction: Logistics">
+    <title>Intro to HCI: Tips & Tricks for Mobile Web Applications</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/hci.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav" data-spy="scroll">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Intro to HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="index.html">Home</a></li>
+            <li><a href="index.html#calendar">Calendar</a></li>
+            <li><a href="studio.html">Studio</a></li>
+            <li class='active'><a href="mobile_app_tips.html">Using on-device resources</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="logistics.html#prereqs">Prerequisites</a></li>
+              <li><a href="logistics.html#lab">Lab</a></li>
+              <li><a href="logistics.html#grading">Grading</a></li>
+              <li><a href="logistics.html#attendance">Attendance</a></li>
+              <li><a href="logistics.html#faq">FAQ</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#calendar">Submit work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://piazza.com/ucsd/winter2014/cogs120/home">Questions(Piazza forum)</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+  <!-- this is a comment in HTML -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="sidenav" data-spy="affix">
+          <ul class="nav nav-stacked" id="sidenav-content">
+          </ul>
+        </div> <!-- /sidenav -->
+      </div> <!-- /col-md-3 -->
+
+      <div class="col-md-9" id="logistics">
+        <div id="locations" class="sidenav-anchor">
+          <h3>Locations</h3>
+          <ul>
+            <li><b>Accessing Phone Location:</b>Use the HTML5 Geolocation API <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Using_geolocation">HTML5 Geolocation API</a></li>
+            <li><b>Using Google Maps</b>Use the <a href="https://developers.google.com/maps/documentation/javascript/">Google Maps Javascript API</a></li>
+          </ul>
+        </div>
+
+        <div id='motion' class='sidenav-anchor'>
+          <h3>Motion</h3>
+          <ul>
+            <li><b>Accessing Gyroscope/Accelerometer</b> Use the <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Detecting_device_orientation">DeviceMotion/DeviceOrientation APIs</a>(<a href="http://www.html5rocks.com/en/tutorials/device/orientation/">(tutorial)</a>)</li>
+          </ul>
+        </div>
+
+        <div id="internet-service and social-media" class="sidenav-anchor">
+          <h3>Internet Services/Social Media</h3>
+          <ul>
+            <li>
+              <b>Accessing Calendar:</b>There's no way I know of to access the native calendar on the mobile device.  However, you can integrate with <a href="https://developers.google.com/google-apps/calendar/">Google Calendar API</a> and load the data that way.
+            </li>
+            <li>
+              <b>Accessing Contacts:</b>Similarly, no native way of accessing contacts but you can use <a href="https://developers.google.com/google-apps/contacts/v3/?csw=1">Google Contacts API</a> if you need their contact info or use the <a href="https://developers.facebook.com/docs/javascript">Facebook API</a>for friends
+            </li>
+            <li>
+              <b>Facebook:</b>If you need to access Facebook data on their phone, use the <a href="https://developers.facebook.com/docs/javascript/quickstart">Facebook Javascript API</a>.  Otherwise, there are several third-party <a href="https://developers.facebook.com/docs/other-sdks">Node.js libraries</a> to access the API.
+
+            </li>
+          </ul>
+        </div>
+
+        <div id="camera" class="sidenav-anchor">
+          <h3>Camera</h3>
+          <ul>
+            <li>
+              <b>Taking a photo/picking photo: </b>If you have a newer version of the iPhone (iOS6+) or Android (3.0+), use <a href="http://dev.opera.com/articles/view/media-capture-in-mobile-browsers/">HTML Media Capture</a>
+            </li>
+            <li>
+              <b>QR Code Reading:</b> Substantially more difficult. Just about do-able if you take a photo using HTML Media Capture (see above) and use a QR code library on the server-side to read the QR code from the picture (e.g. https://npmjs.org/package/jsqrcode).  No guarantees on this one though.
+
+            </li>
+          </ul>
+        </div>
+
+        <div id="making-it-pretty" class="sidenav-anchor">
+          <h3>Making it pretty</h3>
+          <ul>
+            <li>
+              <b>Web fonts:</b> Use custom fonts for better typography.  <a href="http://www.google.com/fonts">Google Web Fonts</a> is a great source of easy-to-add fonts (<a href="http://hellohappy.org/beautiful-web-type/">list of highlights</a>).  Also, here's a <a href="http://www.smashingmagazine.com/2009/03/18/10-principles-for-readable-web-typography/">nice article about good typography.</a>
+            </li>
+            <li>
+              <b>Subtle Patterns:</b> Ever wondered how to make backgrounds a little more interesting than a plain color?  You can use <a href="http://subtlepatterns.com/">Subtle Patterns</a> to add a light pattern to your designs.
+            </li>
+            <li><b>Good icons</b>
+              There are a number of free icon packages out there (just search around).  <a href="http://thenounproject.com/">The Noun Project</a> is a good start though.
+
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+
+    <footer style='margin-top: 20px;'>
+      <p>
+        This course was created by <a href='http://d.ucsd.edu/srk'>Scott Klemmer</a>, revised in collaboration with <a href='http://hci.stanford.edu/msb'>Michael Bernstein</a>, and the teaching staff, You can see  <a href='http://cs147.stanford.edu'>Michael's version of the course here</a>.
+      </p>
+    </footer>
+
+
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/hci.js"></script>
+  </body>
+</html>
