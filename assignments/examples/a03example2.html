@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduction to Human-Computer Interaction: Assignment">
+    <title>Intro to HCI: Assignment 3, Example 2</title>
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../../css/hci.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    IntroHCI assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something
+        to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Intro to HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="../../index.html">Home</a></li>
+            <li><a href="../../index.html#calendar">Calendar</a></li>
+            <li><a href="../../lab/">Lab</a></li>
+            <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../logistics.html#prereqs">Prerequisites</a></li>
+                  <li><a href="../../logistics.html#lab">Lab</a></li>
+                  <li><a href="../../logistics.html#grading">Grading</a></li>
+                  <li><a href="../logistics.html#attendance">Attendance</a></li>
+                  <li><a href="../../logistics.html#cs77">CS 77</a></li>
+                  <li><a href="../../logistics.html#faq">FAQ</a></li>
+                </ul>
+            </li>            
+            <li><a href="http://www.coursera.org">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="staffemailorpiazzaforum@university.edu">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                    
+                    <div>
+                        <h1>Assignment 3, Example 2</h1>
+                    </div>
+
+                <div id="pointofview" class="sidenav-anchor">
+                    <h2>Point of View</h2>
+                    <p>International Students often do not feel fully supported by the collegiate community. Although they are a large part of the student population, their circumstances often leave them at a social and academic disconnect. While there are various resources targeted for the international community, access to these organizations and opportunities are limited to those who know how to navigate through UCSD websites and search for this information. Thus, international students have trouble connecting with other students, utilizing academic resources, and familiarizing themselves with campus because of language and cultural barriers. We think that creating an app that will empower international students to use these opportunities on campus will allow them to become more actively involved on campus and in the larger community as a whole.</p>
+                       
+                </div>
+
+                <div id="inspirationboard" class="sidenav-anchor">
+                    <br><h2>Inspiration Board</h2>
+                    <ol>
+                        <li><a href="http://code.ucsd.edu/zeger/109/map-UCSD.jpg">Navigate</a>: We were inspired by a map, because international students have a hard time finding their way around UCSD’s campus, especially since UCSD is such a big school with six colleges within it. It would be useful for our app to include this navigational function, in order to help students find a route to get them where they need to go. </li>
+                        <li><a href="http://ihouse.ucsd.edu/">Integration</a>: We were inspired by the I-House community and the I-House website, because it focuses on the integration of I-House residents into the greater UCSD community. They host events in order to foster socialization between international and non-international students.
+                            <p><a href="./images/a03e2p1.png"><img src="./images/a03e2p1.png" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                        </li>
+                        <li>Global: We were inspired by the possibility to exchange different cultures amongst students and to create an environment where international students can not only learn about other foreign cultures, but can learn about American culture as well.  
+                            <p><a href="./images/a03e2p2.png"><img src="./images/a03e2p2.png" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                        </li>
+                        <li><a href="https://sites.google.com/site/ucsdmgc/">Community</a>: This website is for the Multicultural Greek Council. We were inspired by this because multicultural fraternities and sororities help foster a community where students can connect with other students from the same cultural background.
+                            <p><a href="./images/a03e2p3.png"><img src="./images/a03e2p3.png" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                        </li>
+                        <li><a href="http://ucsdprogramsabroad.files.wordpress.com/2012/02/img_7330.jpg">Enjoyment</a>: Not only do we want international students to feel academically integrated, we want international students to feel welcome and enjoy the benefits of being at UCSD. And so, we were inspired by this picture of Spirit Night, because it represent students coming together and enjoying a UCSD experience/sporting event. </li>
+
+                    </ol>
+
+                </div>
+                
+                <div id="storyboards" class="sidenav-anchor">
+                    <br><h2>Storyboards</h2>
+                    <h4>Storyboard 1</h4>
+                    <p><a href="./images/a03e2p4.jpg"><img src="./images/a03e2p4.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                    <p><a href="./images/a03e2p5.jpeg"><img src="./images/a03e2p5.jpeg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                    <h4>Storyboard 2</h4>
+                    <p><a href="./images/a03e2p6.jpg"><img src="./images/a03e2p6.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                     <p><a href="./images/a03e2p7.jpg"><img src="./images/a03e2p7.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                </div>
+                
+                <div id="prototypes" class="sidenav-anchor">
+                    <br><h2>Prototypes</h2>
+                    <br><h4>Prototype 1</h4>
+                    <p>The first prototype is an app that allows international students to first create a profile where they input where they're from, the classes they're taking, their interests, etc. Then, users access language resources, academic resources, and social calendars.</p>
+                    <p><a href="./images/a03e2p8.jpg"><img src="./images/a03e2p8.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <p>Here, the user can find a tutor that can speak their language or other international students in their class. </p>
+                    <p><a href="./images/a03e2p9.jpg"><img src="./images/a03e2p9.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <p>The user can also access language resources, UCSD news and calendars, information about I-House events, and a map.  </p>
+                    <p><a href="./images/a03e2p10.jpg"><img src="./images/a03e2p10.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <br><h4>Prototype 2</h4>
+
+                    <p>The second prototype, called Lost in Translation, is an app that allows international students to execute four important functions: a slang dictionary, a way to find tutors and language conversation tables, a UCSD calendar, and a map.</p>
+                    <p><a href="./images/a03e2p11.jpg"><img src="./images/a03e2p11.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+                    <p><a href="./images/a03e2p12.jpg"><img src="./images/a03e2p12.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <p>Here a drop down menu appears with information about the upcoming language conversation tables. </p>
+                    <p><a href="./images/a03e2p14.jpg"><img src="./images/a03e2p14.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <p>A drop down menu appears for international students to find tutors in their class. </p>
+                    <p><a href="./images/a03e2p15.jpg"><img src="./images/a03e2p15.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <p>Users can also access a calendar with both academic and social events.</p>
+                    <p><a href="./images/a03e2p16.jpg"><img src="./images/a03e2p16.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <p>A pop up appears with more detailed information about the events of the day.</p>
+                    <p><a href="./images/a03e2p17.jpg"><img src="./images/a03e2p17.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                    <p>Users can also access a map of UCSD to help navigate their way around campus.</p>
+                    <p><a href="./images/a03e2p18.jpg"><img src="./images/a03e2p18.jpg" class="img-responsive" alt="image" style="border: 0px none; "></a></p>
+
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/hci.js"></script>
+  </body>
+</html>
