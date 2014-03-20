@@ -143,36 +143,40 @@
 </div>
 
 
-<!-- START THE FEATURETTES -->
-
-
-<hr class="featurette-divider">
-
-<div class="row featurette">
-  <div class="col-md-5">
-    <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zOn09sap8KF8.kxKiFEccpphc" width="640" height="480"></iframe>
-  </div>
-
-  <div class="col-md-4 col-lg-offset-2">
-    <h2 class="featurette-heading">Where is <span class="text-muted">Student Services Center</span></h2>
-    <p class="lead"> Student Services Center at the corner of Rupertus Way and Myers Drive, just south of the Price Center expansion, across from the Chancellor's Complex <span><a href="http://act.ucsd.edu/maps/?mapid=7001220390468232&wid=7001220390468232&iws=true&cat=&t=Map&z=17&opacity=50&ll=32.87890239373735,-117.23569750785827" target="_blank">map</a></span> The Multipurpose Room in the Student Services Center 1st Floor</p>
-
-    </div>
-  </div>
-
   <hr class="featurette-divider">
 
-  <div class="row featurette">
-    <div class="col-md-7">
-     <h2 class="featurette-heading">Parking</h2>
-     <p class="lead">If you are visiting from off-campus, you should park in Gilman Parking Structure<span></span>
-   </div>
-   <div class="col-md-5">
-     <a href="#"><img src="Directions-to-Multipurpose.jpg" alt="image" width="100%"></a>
-   </div>
- </div>
+  <h2 class="featurette-heading">CITY</h2>
+  <div class="row" id="city">
+  </div>
+  <hr>
+  <h2 class="featurette-heading">Boundaries</h2>
+  <div class="row" id="boundaries">
+  </div>
 
- <hr class="featurette-divider">
+  <hr>
+  <h2 class="featurette-heading">Ubiquity</h2>
+  <div class="row" id="ubiquity">
+  </div>
+
+  <hr>
+  <h2 class="featurette-heading">Health</h2>
+  <div class="row" id="health">
+  </div>
+
+  <hr>
+  <h2 class="featurette-heading">Memory</h2>
+  <div class="row" id="memory">
+  </div>
+
+  <hr>
+  <h2 class="featurette-heading">Empowerment</h2>
+  <div class="row" id="power">
+  </div>
+
+  <hr>
+  <h2 class="featurette-heading">Community</h2>
+  <div class="row" id="community">
+  </div>
 
 
  <!-- FOOTER -->
@@ -197,7 +201,7 @@ $(document).ready(function(){
     // $.getJSON('./judge/info.json', function(data){
 
 
-     var $data=[
+   var $data=[
      {
       "name":"Greg Horowitt",
       "photo":"./judge/Greg_Horowitt.png",
@@ -252,6 +256,431 @@ $(document).ready(function(){
    }
 
     // });
+
+  var $city=[
+     {
+      "name":"Bike TNT",
+      "link": "http://cogs120-proj.herokuapp.com/classes",
+      "photo":"./projects/biketnt.png",
+      "title":"Yasmine Kotturi, Zach Wu, Nathan Toung"
+    },
+    {
+      "name":"Mon & Pop",
+      "link": "http://momandpop.herokuapp.com/",
+      "photo":"./projects/mom_pop.png",
+      "title":"Chapman Seto, Justin Lakhani"
+    },{
+      "name":"Welcome Home",
+      "link": "http://welcomehomefinal3.herokuapp.com",
+      "photo":"./projects/welcome_home.png",
+      "title":"Elizabeth Cowan, Ryan Chan, Byron Inocencio"
+    },{
+      "name":"Bubble us",
+      "link": "http://bubbleus.webflow.com",
+      "photo":"./projects/bubble_us.png",
+      "title":"Kristina Do, Kaili Guo, Chenyu Si"
+    },{
+      "name":"Feeling Hoppy",
+      "link": "http://feelinhoppy.herokuapp.com",
+      "photo":"./projects/feel_hoppy.png",
+      "title":"Jasmine Chan, Calvin Chan, Jessica Gineris"
+    },{
+      "name":"Summon",
+      "link": "http://summon-app.herokuapp.com/",
+      "photo":"./projects/summon.png",
+      "title":"Shahrzad Gustafson, Jagteg Sodhi, Aldraine Pasaribu"
+    },{
+      "name":"Takeout",
+      "link": "http://takeout-cogs120.webflow.com/",
+      "photo":"./projects/take_out.png",
+      "title":"Kendall Youngstrom,Adam Zernik,Kenny Katayama"
+    },{
+      "name":"Beach Bum",
+      "link": "http://beachbum.herokuapp.com/",
+      "photo":"./projects/beach_bum.png",
+      "title":"Ashley Reese, Cindy Chen, Kittinan Ponkaew "
+    },{
+      "name":"Pit Stops",
+      "link": "https://googledrive.com/host/0B_97EKXCGp8YUktxellXOUx0M00/index.html",
+      "photo":"./projects/trippy.png",
+      "title":"Zhong Yang (Jenny), Artur, Manpreet Singh"
+    },{
+      "name":"Drive away",
+      "link": "http://driveaway170.herokuapp.com/",
+      "photo":"./projects/driveaway.png",
+      "title":"Priyanka Gupta, Pavel Bozdog, Gina Chen"
+    }
+  ];
+
+  for (var i=0;i<$city.length;++i){
+     var $judge=$("<div>", {id: "city_team_" + i, class: "col-lg-4 portfolio-item", style: "min-height: 380px;"});
+     var $photo=$("<img>",{class:"img-responsive", alt:$city[i].name, src:$city[i].photo});
+     $("#city").append($judge);
+     $("#city_team_"+i).append($photo);
+     $("#city_team_"+i).append("<h3>"+$city[i].name+"</h3><p>"+$city[i].title+"</p>");
+      $("#city_team_"+i).append("<a href='" + $city[i].link + "'>"  + "link</a>");
+   }
+
+     var $boundaries=[
+     {
+      "name":"Grade Source++",
+      "link": "http://cogs120-proj.herokuapp.com/classes",
+      "photo":"./projects/gradesource.png",
+      "title":"Lucas Cycon, Yao Lin, James Guan"
+    },
+    {
+      "name":"TimeKeeper",
+      "link": "http://timekeeper.webflow.com/",
+      "photo":"./projects/timekeeper.png",
+      "title":"Kirsten Van Langenhoven, Alex Tran"
+    },{
+      "name":"RegWiz",
+      "link": "http://acsweb.ucsd.edu/~t2ma/regwiz_abtesting.html",
+      "photo":"./projects/regwiz.png",
+      "title":"Tianyu Ma, Austin McGuyer, Tianyi Zhang (Johnny)"
+    },{
+      "name":"Clipped",
+      "link": "http://clipped.herokuapp.com/",
+      "photo":"./projects/clipped.png",
+      "title":"William Stahl, Daniel Xu, Victoria Ly"
+    },{
+      "name":"ResoNote",
+      "link": "http://acsweb.ucsd.edu/~depan/resonote/home.html",
+      "photo":"./projects/resonote.png",
+      "title":"Troy Campbell, Arielle Marom, Debbie Pan"
+    },{
+      "name":"Hello",
+      "link": "http://project-ice.herokuapp.com/",
+      "photo":"./projects/hello.png",
+      "title":"Paula Le, Tigran, Tony"
+    },{
+      "name":"UCSDMaps",
+      "link": "http://mapucsd2.herokuapp.com",
+      "photo":"./projects/ucsd_map.png",
+      "title":"Zhen Zheng, Joseph Yao"
+    },{
+      "name":"FoodMood",
+      "link": "http://foodappucsd3.herokuapp.com",
+      "photo":"./projects/food_mood.png",
+      "title":"Alfredo Rodriguez, Kelsie Colcom, Archit Khosla"
+    }
+  ];
+
+  for (var i=0;i<$boundaries.length;++i){
+     var $judge=$("<div>", {id: "boundaries_team_" + i, class: "col-lg-4 portfolio-item", style: "min-height: 380px;"});
+     var $photo=$("<img>",{class:"img-responsive", alt:$boundaries[i].name, src:$boundaries[i].photo});
+     $("#boundaries").append($judge);
+     $("#boundaries_team_"+i).append($photo);
+     $("#boundaries_team_"+i).append("<h3>"+$boundaries[i].name+"</h3><p>"+$boundaries[i].title+"</p>");
+     $("#boundaries_team_"+i).append("<a href='" + $boundaries[i].link + "'>"  + "link</a>");
+   }
+
+   var $ubiquity=[
+     {
+      "name":"My Closet",
+      "link": "http://mycloset.herokuapp.com",
+      "photo":"./projects/mycloset.png",
+      "title":"Doris Kwok, Frank Chao, Judy Lin"
+    },
+    {
+      "name":"Foodora",
+      "link": "http://foodora123.herokuapp.com/",
+      "photo":"./projects/foodora.png",
+      "title":"Justin Pearson, Joe Wang, Thinh Le"
+    },{
+      "name":"Orange Juice",
+      "link": "http://orangejuice.herokuapp.com/login",
+      "photo":"./projects/orange_juice.png",
+      "title":"Donna Nguyen, Brian Hsu, Caitlin Cagampan"
+    },{
+      "name":"Balancr",
+      "link": "http://balancr.herokuapp.com/",
+      "photo":"./projects/balancr.png",
+      "title":"Churen Shao, Skylar Pagenkopf, Ben Renfrew"
+    },{
+      "name":"Concept Ink",
+      "link": "http://conceptink2.herokuapp.com/",
+      "photo":"./projects/concept_ink.png",
+      "title":"Alexander Fosseidbraaten, Thomas Emil Dagsvik"
+    },{
+      "name":"InQuery",
+      "link": "http://inquery.herokuapp.com/",
+      "photo":"./projects/inquery.png",
+      "title":"Julia Lee, Michael Hatch,Tiffany Lin"
+    },{
+      "name":"Fit",
+      "link": "http://fit-team2.herokuapp.com/",
+      "photo":"./projects/fit.png",
+      "title":"Joshua Gross, Alexandra McMahan, Kenneth Nierenhausen"
+    },{
+      "name":"Task Book",
+      "link": "http://task-book.herokuapp.com",
+      "photo":"./projects/taskbook.png",
+      "title":"Karen Wu, Clarence Siu, Andrew Lin"
+    },{
+      "name":"YOSO",
+      "link": "http://yoso-v3.herokuapp.com/",
+      "photo":"./projects/yoso.png",
+      "title":"Meena Mostamandi, Albert Ke, Brett Parsekian"
+    },{
+      "name":"Note Pull",
+      "link": "http://notepull.herokuapp.com/",
+      "photo":"./projects/notepull.png",
+      "title":"Yalin Zhangm, Anindya Basu, Helena Qin"
+    },{
+      "name":"Cook Ease",
+      "link": "http://cook-ease.herokuapp.com/",
+      "photo":"./projects/cook_ease.png",
+      "title":"Melissa Wong, Keney Cheung, Timothy Nguyen"
+    },{
+      "name":"Simple Chef",
+      "link": "http://simplechef.herokuapp.com/",
+      "photo":"./projects/simple_chef.png",
+      "title":"Laura Chaves-Silva, Kyle Poland"
+    }
+  ];
+
+  for (var i=0;i<$ubiquity.length;++i){
+     var $judge=$("<div>", {id: "ubiquity_team_" + i, class: "col-lg-4 portfolio-item", style: "min-height: 380px;"});
+     var $photo=$("<img>",{class:"img-responsive", alt:$ubiquity[i].name, src:$ubiquity[i].photo});
+     $("#ubiquity").append($judge);
+     $("#ubiquity_team_"+i).append($photo);
+     $("#ubiquity_team_"+i).append("<h3>"+$ubiquity[i].name+"</h3><p>"+$ubiquity[i].title+"</p>");
+     $("#ubiquity_team_"+i).append("<a href='" + $ubiquity[i].link + "'>"  + "link</a>");
+
+   }
+
+   var $health=[
+     {
+      "name":"Health Helper",
+      "link": "http://healthyhelper.herokuapp.com",
+      "photo":"./projects/two_evil.JPG",
+      "title":"Maria Joseph, Ramya Kedlaya, Ugo Umeh"
+    },
+    {
+      "name":"Gym Buddy",
+      "link": "http://gymbuddy170.herokuapp.com/",
+      "photo":"./projects/gymbuddy.png",
+      "title":"Matthew Koonce, Mana Jammalamadaka, Sara Millar"
+    },{
+      "name":"HappyThoughts",
+      "link": "http://cse170happythoughts.herokuapp.com/",
+      "photo":"./projects/happy_thoughts.png",
+      "title":"Erik Gallegos, Gabriela Ponce"
+    },{
+      "name":"Zleep",
+      "link": "http://zleep.herokuapp.com/",
+      "photo":"./projects/zleep.png",
+      "title":"Angela Pate, Jake Pham (Hieu), Nick Variz, Alice Nguyen"
+    },{
+      "name":"TCR",
+      "link": "http://tcr-trackr.herokuapp.com",
+      "photo":"./projects/tcr.png",
+      "title":"Rebecca Walsh, Carla Sun, Tiffany Tse"
+    },{
+      "name":"WaterLyfe",
+      "link": "http://gohydratenow.herokuapp.com/",
+      "photo":"./projects/gohydrate.png",
+      "title":"Valerie Metzger-Smith, Bonniei Trang, George Okamura"
+    },{
+      "name":"MedAssist",
+      "link": "http://nardoarevalo.net/",
+      "photo":"./projects/medassist.png",
+      "title":"Matthew D Schwegler, Sahil Jain, Bernardo Arevalo"
+    }
+  ];
+
+  for (var i=0;i<$health.length;++i){
+     var $judge=$("<div>", {id: "health_team_" + i, class: "col-lg-4 portfolio-item", style: "min-height: 380px;"});
+     var $photo=$("<img>",{class:"img-responsive", alt:$health[i].name, src:$health[i].photo});
+     $("#health").append($judge);
+     $("#health_team_"+i).append($photo);
+     $("#health_team_"+i).append("<h3>"+$health[i].name+"</h3><p>"+$health[i].title+"</p>");
+    $("#health_team_"+i).append("<a href='" + $health[i].link + "'>"  + "link</a>");
+   }
+
+    var $memory=[
+     {
+      "name":"Memdar",
+      "link": "memdar.herokuapp.com",
+      "photo":"./projects/memdar.png",
+      "title":"Gregory Newbrough, Josh Klein (login: Email: user@user.com, Password: sentryuser)"
+    },
+    {
+      "name":"There n Back",
+      "link": "http://therenbackv9000.herokuapp.com",
+      "photo":"./projects/therenback.png",
+      "title":"Joann Kim, Joseph Caluza, Cary Cheng"
+    },{
+      "name":"A Photo a Day",
+      "link": "http://reallab7.herokuapp.com",
+      "photo":"./projects/aphotoaday.png",
+      "title":"Xiaomeng Wang, Nan Chen,Xiangcheng Zhu"
+    },{
+      "name":"Checkmates",
+      "link": "http://checkmates.herokuapp.com/",
+      "photo":"./projects/checkmates.png",
+      "title":"Cesar Cisneros, Jaysen Parmar, Sarah Vu (login: email: s4vu@ucsd.edu password:group2)"
+    },{
+      "name":"Flashback",
+      "link": "http://flashback-170.nfshost.com/fb/",
+      "photo":"./projects/flashback.png",
+      "title":"Scott Chuong, Jonathan Yuan, Ricardo Cruell"
+    },{
+      "name":"Study Buddies",
+      "link": "http://studybuddies.herokuapp.com/",
+      "photo":"./projects/studybuddy.png",
+      "title":"Asher Garland, Hannah Thompsen, Matan Vardi, Elliot Yaghoobia"
+    },{
+      "name":"LiveFree",
+      "link": "http://livefree-test.herokuapp.com",
+      "photo":"./projects/livefree.png",
+      "title":"Vinay Mavram, Kenna Hasson, Alex Lee"
+    },{
+      "name":"ClassMate",
+      "link": "http://classmate.herokuapp.com",
+      "photo":"./projects/classmate.png",
+      "title":"Sasa Ljuboje, Eun Song, Tyler Lopez"
+    },{
+      "name":"Instacal",
+      "link": "http://instacal.herokuapp.com",
+      "photo":"./projects/instacal.png",
+      "title":"Dhanuk Withana, Grant Wiesnoski, Brian Clark (Login: dhanukw@gmail.com, Password: instacal)"
+    }
+  ];
+
+  for (var i=0;i<$memory.length;++i){
+     var $judge=$("<div>", {id: "memory_team_" + i, class: "col-lg-4 portfolio-item", style: "min-height: 380px;"});
+     var $photo=$("<img>",{class:"img-responsive", alt:$memory[i].name, src:$memory[i].photo});
+     $("#memory").append($judge);
+     $("#memory_team_"+i).append($photo);
+     $("#memory_team_"+i).append("<h3>"+$memory[i].name+"</h3><p>"+$memory[i].title+"</p>");
+     $("#memory_team_"+i).append("<a href='" + $memory[i].link + "'>"  + "link</a>");
+   }
+
+   var $power=[
+     {
+      "name":"Gifji",
+      "link": "http://gifji.herokuapp.com",
+      "photo":"./projects/gifji.png",
+      "title":"Dustin Yu, Kimberly Chu, Christian Huerta"
+    },
+    {
+      "name":"MediBill",
+      "link": "http://medicalbill.herokuapp.com",
+      "photo":"./projects/medibill.png",
+      "title":"Yevgeniy Galipchak, Yury Ogienko, Alan Lau"
+    },{
+      "name":"A Photo a Day",
+      "link": "",
+      "photo":"./projects/aphotoaday.png",
+      "title":"Xiaomeng Wang, Nan Chen,Xiangcheng Zhu"
+    },{
+      "name":"Study Finder",
+      "link": "http://studyfinder.herokuapp.com/",
+      "photo":"./projects/studyfinder.png",
+      "title":"Mahathee Chetlapalli, Steven Leung, Melissa Canivel"
+    },{
+      "name":"Lab Weather",
+      "link": "www.todocse170.heroku.com",
+      "photo":"./projects/labweather.png",
+      "title":"Ryan Yu, Eric Lowe, Luke Kim"
+    },{
+      "name":"Lost in Translation",
+      "link": "http://lucsdi.herokuapp.com/",
+      "photo":"./projects/lostintranslation.png",
+      "title":"Andriana Beltran Romero, Megan Ring, Christiano Faustino"
+    },{
+      "name":"We Have We Need",
+      "link": "http://invaid-cogs120.herokuapp.com/",
+      "photo":"./projects/resupply.png",
+      "title":"Ryan Chavez, Brian Lai, Joshua Liu"
+    },{
+      "name":"JustCause",
+      "link": "http://just-cause.herokuapp.com/",
+      "photo":"./projects/justcause.png",
+      "title":"Joshua Yuen, Jun Bae Kong, Juliana Hahn"
+    }
+  ];
+
+  for (var i=0;i<$power.length;++i){
+     var $judge=$("<div>", {id: "power_team_" + i, class: "col-lg-4 portfolio-item", style: "min-height: 380px;"});
+     var $photo=$("<img>",{class:"img-responsive", alt:$power[i].name, src:$power[i].photo});
+     $("#power").append($judge);
+     $("#power_team_"+i).append($photo);
+     $("#power_team_"+i).append("<h3>"+$power[i].name+"</h3><p>"+$power[i].title+"</p>");
+     $("#power_team_"+i).append("<a href='" + $power[i].link + "'>"  + "link</a>");
+   }
+
+     var $community=[
+     {
+      "name":"Taskur",
+      "link": "http://taskur.herokuapp.com",
+      "photo":"./projects/taskur.png",
+      "title":"Chet Lemon, Chris Zelazom,Kesav Mulakaluri"
+    },
+    {
+      "name":"Job Hunt",
+      "link": "http://jobhunt.herokuapp.com/",
+      "photo":"./projects/jobhunt.png",
+      "title":"Natalie Avunjian, Erik Parreira, Andreas Djokic, Kenneth Torres"
+    },{
+      "name":"Webreg-Pro",
+      "link": "http://webreg-pro.herokuapp.com/",
+      "photo":"./projects/webregpro.png",
+      "title":"Thomas Nyuyen, Ankit Agarwal, Kandice Wong"
+    },{
+      "name":"Serious BUS-iness",
+      "link": "http://bus.xghk.net/",
+      "photo":"./projects/seriousbus.png",
+      "title":"Wei-shan Wu, Yip Ming Wong, Nim Yi Ashley Yung, Adam Fisher"
+    },{
+      "name":"Lab Weather",
+      "link": "",
+      "photo":"./projects/labweather.png",
+      "title":"Ryan Yu, Eric Lowe, Luke Kim"
+    },{
+      "name":"Groupbuy",
+      "link": "http://107.170.250.75/",
+      "photo":"./projects/groupbuy.png",
+      "title":"Edward Wang, Theresa Lee, Justin Hung"
+    },{
+      "name":"Gifthub",
+      "link": "http://gifthub.herokuapp.com/",
+      "photo":"./projects/gifthub.png",
+      "title":"Lynn Vo, Mari Koba, Leon Cam"
+    },{
+      "name":"Dinner Party",
+      "link": "http://dinnerparty.herokuapp.com",
+      "photo":"./projects/dinner_party.png",
+      "title":"William Samuels, Nicholas Troast, Sayeed Amir"
+    },{
+      "name":"Thrifty",
+      "link": "http://thriftyv2.herokuapp.com",
+      "photo":"./projects/thrifty.png",
+      "title":"Elizabeth Chaddock, Iris Chan, Alex Rodriguez"
+    },{
+      "name":"UCSD Smart-line",
+      "link": "http://ucsdsmartliner.herokuapp.com",
+      "photo":"./projects/ucsdsmartliner.png",
+      "title":"Rosalyne Sirimitr, Zidong Jiang, Khang Mach"
+    },{
+      "name":"UCSD Rental",
+      "link": "http://ucsdrentals.herokuapp.com/",
+      "photo":"./projects/ucsdrental.png",
+      "title":"Tianyi Li, Joy Liao, Yue Shi"
+    }
+
+  ];
+
+  for (var i=0;i<$community.length;++i){
+     var $judge=$("<div>", {id: "community_team_" + i, class: "col-lg-4 portfolio-item", style: "min-height: 380px;"});
+     var $photo=$("<img>",{class:"img-responsive", alt:$community[i].name, src:$community[i].photo});
+     $("#community").append($judge);
+     $("#community_team_"+i).append($photo);
+     $("#community_team_"+i).append("<h3>"+$community[i].name+"</h3><p>"+$community[i].title+"</p>");
+     $("#community_team_"+i).append("<a href='" + $community[i].link + "'>"  + "link</a>");
+   }
 });
 
 </script>
