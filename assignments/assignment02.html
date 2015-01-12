@@ -9,8 +9,8 @@
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="../css/hci.css" rel="stylesheet">
-
+    <!--<link href="../css/hci.css" rel="stylesheet">-->
+	<link href="../css/hci_fixed.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,7 +18,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-target=".sidenav">
+  <body data-spy="scroll" data-target=".sidenav" data-offset=65>
 
     <!--
     IntroHCI assignment template
@@ -100,7 +100,7 @@
 
                 <div id="plan" >
                     <br><h4>Step 2: Pick an Activity; Make an Interview & Observation Plan</h4>
-                    <p>You will ultimately be designing a web-based service or application for a mobile device (non-native apps, details to come), but you don't need to restrict your observation to people using computers and the Web. If you're designing for an activity that people don't currently use computers for, or where non-digital tools have benefits, then observe people doing the task as they do it now. Observing the strengths and weaknesses of analog tools can inspire ideas for the digital world. Where people are using software, remember to observe and interview people in situ -- using their computer, their software, in their environment, doing their activities. Context matters. If you have mobility limitations, perform your observations and interviews over email, phone, Skype, and/or video chat. If for whatever reason you're interested in activities that are tough to observe (maybe because they're infrequent) you can augment your interviews with <a href="https://ucsd.coursera.org/introhci-001/lecture/14">diary studies</a>.</p>
+                    <p>You will ultimately be designing a web-based service or application for a mobile device (non-native apps, details to come), but you don't need to restrict your observation to people using computers and the Web. If you're designing for an activity that people don't currently use computers for, or where non-digital tools have benefits, then observe people doing the task as they do it now. Observing the strengths and weaknesses of analog tools can inspire ideas for the digital world. Where people are using software, remember to observe and interview people in situ -- using their computer, their software, in their environment, doing their activities. Context matters. If you have mobility limitations, perform your observations and interviews over email, phone, Skype, and/or video chat. If for whatever reason you're interested in activities that are tough to observe (maybe because they're infrequent) you can augment your interviews with <a href="https://ucsd.coursera.org/introhci-001/lecture/14">diary studies</a> (you may need to login with your UCSD AD login).</p>
                     <p>Make a list of types of people you might interview and situations you might observe to come up with design insights. Think about different types of everyday users, marginalized users, and extreme users. Also think about other stakeholders in the ecosystem. Think about the characteristics of these users.</p>
                     <p>For example, this <a href="https://ucsd.coursera.org/introhci-001/lecture/144">IDEO design team</a> was asked to redesign the grocery shopping cart. Their interviewees included not just everyday users, but also extreme users like professional shoppers and other stakeholders like store managers. Often, lead users or extreme users have come up with better solutions and creative tricks. Interviewing and observing marginalized users not only helps us create more inclusive designs, it also often highlights issues that everyone has to varying degrees. </p>
                 </div>
@@ -123,15 +123,12 @@
                     <br><h4>Step 4: Observe and Interview</h4>
                     <p>Tell the participants to perform the task as realistically as possible, while communicating to you as appropriate. Utilize <a href="https://ucsd.coursera.org/introhci-001/lecture/20">the strategies</a> we talked about in lecture to help you. During the observation, take detailed notes and use digital photographs or sketches to document activities, but <b>do not use a video camera</b>. This is because your choice of moments to capture with a photograph or sketch is what is important, as it shows specific successes and breakdowns. You can also frame your observations through a lens of redesign of the activity you are observing by asking yourself questions like, "When, where, how, or why can’t someone use what is out there already for this activity?"
                     </p>
-                    <p>
-                        Remember, your photos or sketches are meant to highlight specific <b>breakdowns or design opportunities</b>. 
+                    <p>Remember, your photos or sketches are meant to highlight specific <b>breakdowns or design opportunities</b>. 
                     </p>
-                    <p>A <b>breakdown</b>is when a user tries to do something and fails or does not know what to do. <b>Breakdowns</b>include slips, which are accidental; mistakes, where users have the wrong mental model; awkward or long interactions that just take too many steps. To effectively do this, caption each photo to explain what is being observed and describe the breakdown or design opportunity. Keep in mind that your TA will be evaluating you on these photos and captions; ask yourself if they will be able to understand what is going on without having observed with you. Note: Using stock photos/art is plagiarism and is unacceptable.
+                    <p>A <b>breakdown</b> is when a user tries to do something and fails or does not know what to do. <b>Breakdowns</b> include slips, which are accidental; mistakes, where users have the wrong mental model; awkward or long interactions that just take too many steps. To effectively do this, caption each photo to explain what is being observed and describe the breakdown or design opportunity. Keep in mind that your TA will be evaluating you on these photos and captions; ask yourself if they will be able to understand what is going on without having observed with you. Note: Using stock photos/art is plagiarism and is unacceptable.
                     </p>
-
                     <p>After the observations, spend 10 to 15 minutes interviewing your participants about the activity you observed. It should take you approximately two hours total to make all three observations if you have planned carefully. It will take longer if you haven’t!
                     </p>                    
-
                 </div>
 
                 <div id="identifyneeds">
@@ -148,6 +145,11 @@
                     </p>
                 </div>
 
+                <div id="instudio">
+                    <br><h4>In Studio</h4>
+                    <p>In studio, you will give a 1 minute talk describing your approach to the assignment. What activity did you choose to examine? How did you examine it, with what methods? What major insights or breakdowns did you discover? What promising user needs were identified as a result? Do not print out your sketches or pictures, just use words so as not to consume time explaining a complicated scene or sketch.</p> 
+					<p>Also in studio, you will form teams of three for your term project. No need to make arrangements in advance; everything will happen in studio.</p>
+                </div>
                 <div>
                     <br><i><h2>What’s this for? A UX agency perspective</h2>
                     <p>by Mike Davison, Community TA and UX Project Manager</p>
@@ -156,26 +158,7 @@
                     <p>Why is this useful? Well perhaps we could develop interfaces that took into account the pressure the user applies, and not just where they apply it? How could we make the interface itself easier for the elderly user? Needfinding is a very powerful way to generate ideas.</p></i>
                 </div>
 
-                <div id="submit" class="sidenav-anchor">
-                    <br><h2>Assignment Submission</h2>
-                    <ul>
-                        <li>An explanation of how the activity you observed relates to the design brief for your studio.
-                        <b>(Observation Quantity, Observation Quality, Photos/Sketches)</b></li>
-
-                        <li>Thorough descriptions of your observations for each of the three people observed.</li>
-
-                        <li>Photos or sketches of a design breakdown or opportunity for each of the three people observed. <b>Remember</b>: Each photo must have a caption that fully conveys the breakdown or opportunity.
-                        </li>
-
-                        <li>A list of insightful user needs inspired by what you observed (at least 15). If you brainstormed with others, please include their names in your submission to recognize their contribution.
-                        <b>(Ideation Quantity, Ideation Quality)</b> </li>
-                    </ul>
-                    <a href="http://www.ucsd-hci.com
-" class='btn btn-primary'>Submit your formatted pdf here</a>
-
-                </div>
-                <hr>
-                <div id='feedback' class='sidenav-anchor'>
+				<div id='feedback' class='sidenav-anchor'>
                     <h2>Common "I wish" Feedback</h2>
                     <p>The following statements are common feedback given on this assignment. We call these statements "I wish" feedback because they are a way to express things that you wish the assignment had contained. You could think of these as common problems to avoid.
                     </p>
@@ -199,9 +182,27 @@
 
                         <li>These photos and captions clearly describe the activity being observed and explain the design breakdown or opportunity: <a href="https://d396qusza40orc.cloudfront.net/hciucsd/assignment_ressources/Student%20Examples/Assignment%201/A1Ex-Photos.pdf">Photos and captions example</a> 
                         </li>
-
                     </ul>
                 </div>
+				
+				<hr>
+				
+                <div id="submit" class="sidenav-anchor">
+                    <br><h2>Assignment Submission</h2>
+					<p> Submit a single formatted pdf file with the following items concatenated within it (see the <a href="http://d.ucsd.edu/class/intro-hci/2015/assignments/assignment02.html#examples">Student Examples</a> section for how to format each item): 
+					</p>
+                    <ul>
+                        <li>An explanation of how the activity you observed relates to the design brief for your studio.
+                        </li>
+                        <li>Thorough descriptions of your observations for each of the three people observed. <b>(Observation Quantity, Observation Quality)</b></li>
+                        <li>A total of three or more photos or sketches of a design breakdown or opportunity from your observations, ideally one photo for each person you observed. <b>Remember</b>: Each photo must have a caption that fully conveys the breakdown or opportunity. <b>(Photos/Sketches)</b>
+                        </li>
+                        <li>A list of insightful user needs inspired by what you observed (at least 15). If you brainstormed with others, please include their names in your submission to recognize their contribution.<b> (Ideation Quantity, Ideation Quality)</b> </li>
+                    </ul>
+					<p>Submitted in studio, you are responsible for giving a prepared 1 minute talk about your findings. <b>(Needfinding Talk)</b> </p>.
+                    <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
+                </div>
+                <div></div>
 
                 <div id="evaluation" class="sidenav-anchor">
                     <br><h2>Evaluation criteria &amp; Grading rubric</h2>
@@ -241,20 +242,27 @@
                                     <td headers="above">The student submitted three relevant photos/sketches and captions that demonstrate a breakdown or design opportunity.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding">Ideation Quantity<br><span style="color:lightGray;">3 points</span></td>
+                                    <td headers="guiding">Ideation Quantity<br><span style="color:lightGray;">2 points</span></td>
                                     <td headers="unsatisfactory">The student did not come up with ideas for user needs or gave an irrelevant answer.</td>
                                     <td headers="minimum">The student came up with 1 - 7 ideas for user needs.</td>
                                     <td headers="satisfactory">The student came up with 8 - 14 ideas for user needs. </td>
                                     <td headers="above">The student came up with 15+ ideas for user needs.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding">Ideation Quality<br><span style="color:lightGray;">3 points</span></td>
+                                    <td headers="guiding">Ideation Quality<br><span style="color:lightGray;">2 points</span></td>
                                     <td headers="unsatisfactory">The student did not come up with ideas or gave an irrelevant answer. </td>
                                     <td headers="minimum">Most of the ideas the student came up with were irrelevant, repeated, obvious (didn't require observation), or describe solutions or features rather than user needs.
                                     </td>
                                     <td headers="satisfactory">Most of the student's ideas were insightful; Only a few seemed irrelevant, repeated, obvious, or describe solutions or features rather than user needs. </td>
                                     <td headers="above">All of the ideas were insightful. Each idea could become the basis for a design project. More than just solutions or features, the goals were articulated as user needs.</a></td>
-                            </tbody>
+                            </tr>
+                                 <tr>
+                                    <td headers="guiding">Needfinding Talk<br><span style="color:lightGray;">2 points</span></td>
+                                    <td headers="unsatisfactory">Student does not give talk.</td>
+                                    <td headers="minimum">Student gives 1 minute talk on their proposed topic. Preparation is minimal, i.e. did not finish in time, did not explain clearly, etc.</td>
+                                    
+                                    <td headers="above">Student gives 1 minute talk on their topic with obvious preparation. Does not need to be perfect, just needs to be focused and prepared</td>
+                                </tbody>
                         </table>
                     </div>
                 </div>
@@ -262,7 +270,6 @@
                 <div id='self-assessment' class='sidenav-anchor'>
                   <h3>Self Assessment</h3>
                   <a href='https://docs.google.com/forms/d/1HTBJXYMLKmlBpC9Rsm0UEbEVK6J5f3PrHu7zpIYLPQQ/viewform' class='btn btn-primary'>During studio, click here to self assess your work.</a>
-
                 </div>
 
 
