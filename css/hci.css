@@ -4,7 +4,7 @@ body {
 }
 
 .anchor {
-	padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
+  padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
   margin-top: -40px;
   display: inline-block; /* required for webkit browsers */
 }
