@@ -119,7 +119,7 @@
 					</ul>
 					<p>As an example, if you were making a travel app, your words could be: relaxing, paradise, getaway, Europe, blue, etc. Then, some inspirations could be tripadvisor.com, souvenirs, twitter, Bank of America mobile banking app, and so on. You should not be submitting inspirations with tripadvisor.com, travelocity.com, expedia.com, as these websites all offer the same type of services and therefore, do not add anything “diverse” to the set.
                     While it’s true that Google has a clean minimal layout and the iPhone has a beautiful design, citing those as inspiration wouldn’t be very specific.</p>
-					<p><a href="http://www.minimallyminimal.com/blog/america-elect">Here's a concrete example</a> of an inspiration board, found below the overview section, where you can see the existing products/systems/etc. that help establish the problem space being explored. On the right are the words that related to the designer's design ideas.</p>
+					<p><a href="https://drive.google.com/file/d/0B83mQAPNBiV3VEVzY2JwM1dmRFU/view?usp=sharing">Here's a concrete example</a> of an inspiration board, found below the overview section, where you can see the existing products/systems/etc. that help establish the problem space being explored. On the right are the words that related to the designer's design ideas.</p>
 					<p>Remember to be creative. Think big, then focus in with an insightful and specific explanation of how your inspirations <i>inspired</i> you.</p>
                 </div>
                 <div id="storyboard" class="sidenav-anchor">
@@ -213,8 +213,8 @@
                     <p>For this assignment (and all future assignments), <b><u>ONE</u></b> person will submit the assignment for their team, listing every group member's student ID number in the assignment submission. Remember to bring your storyboards to class.</p>
                     <p>Your write-up will contain:</p>
                     <ul>
-                        <li>A brief description of the activity you observed last assignment (or, if your group chose a new design direction, what activity you observed this week), how it connects to your studio theme, and what point of view you chose.</li>
-                        <li>5-10 words that relate to your design idea. <b>(Point of view)</b></li>
+                        <li>A brief description of the activity you observed last assignment (or, if your group chose a new design direction, what activity you observed this week), how it connects to your studio theme, and what <b>point of view</b> you chose.</li>
+                        <li>5-10 words that relate to your design idea. <b>(Inspiration Quality)</b></li>
                         <li>Five existing inspirations that relate to your thinking and explanations of why you chose those designs. <b>(Inspiration Quality)</b></li>
                         <li>A comprehensive set of digital photos or scans of both of your storyboards. Remember that the two storyboards should diverge, meaning that they each represent different design ideas that address your point of view.<b>(Storyboard #1, Storyboard #2)</b></li>
                         <li>A comprehensive set of digital photos or scans of both of your paper prototypes. <b>(Prototype #1, Prototype #2)</b></li>
