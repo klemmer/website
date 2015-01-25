@@ -132,10 +132,14 @@
                 </div>
                 <div id="paperprototype" class="sidenav-anchor">
                     <h4>Step 4: Build 2 Paper Prototypes</h4>
-                    <p>For the last step, lay out your storyboards so the team can see them. Take some time to discuss the different ideas you've had. Make sure you discuss the strengths and weaknesses of each design, and how well they achieve the goals set out by your point of view. And then, as a team, decide on one of these ideas to prototype. Buy-in and joint ownership are critical here. If the discussion takes a while, that's cool. (Disenfranchisement at this point is way bad, as it means you'll be up alone pulling late nights, while your teammate is sleeping, angry you didn't pick their idea.)</p>
-                    <p>Working as a group, make two paper prototypes that implement the idea you've decided on. (Can you see we really value enumerating alternatives?) A paper prototype concretely shows <u>all</u> the essential elements of a user interface, except that it's implemented with pen on paper, as opposed to pixels and code. Paper prototypes must be hand-drawn. No computers and printers are allowed. Again, it helps focus on the concepts, and saves you from wasting hours twiddling pixels. Years after taking this course, students often come back and tell us that paper prototyping was their favorite part of the class because of its effectiveness for rapid ideation.</p>
-                    <p>The prototypes should vary in interface, but offer the same basic, yet complete, functionality. For example, if you were designing a mobile transit application, your two prototypes could display the bus times in two very different ways. The prototypes should be complete enough to "run" a new user through each task. When you're done, everyone on your team should sign the prototypes. (Note: the story here is very linear, but your process doesn't have to be. You can start making a paper prototype, then change your mind. Align your prototype with your storyboard as much as you can; no need to be perfect. Don't try to split up the work just to get the assignment done, where one person makes the storyboard while the other makes the prototype. That's not very effective.) Your prototype interface should enable people to navigate, recover from errors, and change their mind. Check out the <a href=" http://www.youtube.com/watch?v=GrV2SZuRPv0">Hanmail video</a> for an awesome example and inspiration.</p>
+                    <p>For step 4, lay out your storyboards so the team can see them. Take some time to discuss the different ideas you've had. Make sure you discuss the strengths and weaknesses of each design, and how well they achieve the goals set out by your point of view. Buy-in and joint ownership are critical here. If the discussion takes a while, that's cool. Disenfranchisement at this point is way bad, as it means you'll be up alone pulling late nights, while your teammate is sleeping, angry you didn't pick their idea.</p>
+                    <p>Working as a group, make two paper prototypes. Each should clearly connect to your point of view, but do so in a different way. (Can you see we really value enumerating alternatives?) Quite likely, each prototye will instantiate one of your storyboards, but that's not required. A paper prototype concretely shows <u>all</u> the essential elements of a user interface, except that it's implemented with pen on paper, as opposed to pixels and code. Paper prototypes must be hand-drawn. No computers and printers are allowed. Again, it helps focus on the concepts, and saves you from wasting hours twiddling pixels. Years after taking this course, students often come back and tell us that paper prototyping was their favorite part of the class because of its effectiveness for rapid ideation.</p>
+                    <p>For example, if you were designing a mobile transit application, your two prototypes could take two different approaches to addressing the point of view that users should be able to find out when the next bus will come. The prototypes should be complete enough to "run" a new user through each task. When you're done, everyone on your team should sign the prototypes. (Note: the story here is very linear, but your process doesn't have to be. You can start making a paper prototype, then change your mind. Align your prototype with your storyboard as much as you can; no need to be perfect. Don't try to split up the work just to get the assignment done, where one person makes the storyboard while the other makes the prototype. That's not very effective.) Your prototype interface should enable people to navigate, recover from errors, and change their mind. Check out the <a href=" http://www.youtube.com/watch?v=GrV2SZuRPv0">Hanmail video</a> for an awesome example and inspiration.</p>
                     <p>Your paper prototypes should show sketches for all important areas of your site. If X is an area of your site that's not very relevant to your task (like maybe the copyright policy of piazza isn't very important for designing the use case of this class) then you don't need to show it. Remember, this prototype is all hand-drawn (no computer tools), so it should be really fast to come up with ideas. In fact, that's precisely the point of this assignment: now is the time to do the hard conceptual work of figuring out your information architecture and functionality.</p>
+                </div>
+                <div id="reada4" class="sidenav-anchor">
+                    <h4>In Studio</h4>
+                    <p>You will present your storyboards/prototypes. Also, you'll be assigned 3 evaluators from different groups. You will need to arrange time to meet with these evaluators before lecture next week. See <a href="http://d.ucsd.edu/class/intro-hci/2015/assignments/A4/">Assignment 4</a> for details.</p>
                 </div>
 				<div id="whatsthisfor" class="sidenav-anchor">
                     <h2><i>What’s this for? A UX agency perspective</i></h2>
@@ -224,49 +228,14 @@
                 <br><div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation Criteria &amp; Grading Rubric</h2>
                     <div class="table-responsive">
-                        <table class="table"><tbody>
-                            <tr><th id="guiding" valign="top">Category</th><th id="unsatisfactory" valign="top">Nope</th><th id="minimum" valign="top">Weak</th><th id="satisfactory" valign="top">Proficient</th><th id="above" valign="top">Mastery</th></tr>
-                            <tr><td>Point of view<br><span style="color:lightGray;">3 points</span></td><td>No point of view or irrelevant point of view. </td><td>The student's point of view does not express a problem or opportunity, does not create requirements for a solution, or does not relate to the studio theme.</td><td>The point of view relates to the studio theme and the problem and solution are clearly stated, but the solution requirement is too general (any solution meets the requirement) or is too specific (allows for only one solution).</td><td>The problem and solution requirement are clearly stated in the point of view and clearly relate to the studio theme; the requirement allows for focus without being too constraining.</td></tr>
-                            <tr><td headers="guiding">Inspiration Quality<br><span style="color:lightGray;">3 points</span></td><td headers="unsatisfactory">No relevant inspirations.</td><td headers="minimum">Fewer than 5 inspirations with explanations. Fewer than 5 words submitted or words do not relate to the design idea.</td><td headers="satisfactory">The inspirations were obvious (didn't require observation) and/or the explanations were vague and confusing (it would be hard to implement a solution based on them). 5-10 words included that relate to your design idea.</td><td headers="above">Inspirations were diverse and had insightful explanations. 5-10 words included that relate to and strengthen your design idea.</td></tr>
-                            <tr>
-                                <td>Storyboard #1<br><span style="color:lightGray;">2 points</span></td>
-                                <td  colspan="2">No storyboard submitted OR the storyboard is hard to follow or does not address the problems and solution requirements identified in the point of view.</td>
-                                <td>The storyboard reasonably addresses the problems identified in the point of view, but a reader may have lingering questions about the situation depicted.</td>
-                                <td>The storyboard is easy to follow. Someone else could come up with a distinct prototype that would correspond with the point of view just from looking at the storyboard.</td>
-                            </tr>
-                            <tr>
-                                <td>Storyboard #2<br><span style="color:lightGray;">2 points</span></td>
-                                <td  colspan="2">The student did not submit a second storyboard OR the storyboard is hard to follow and does not address the problems and solution requirements identified in the point of view.</td>
-                                <td>The storyboard reasonably addresses the problems identified in the point of view, but a reader may have lingering questions about the situation depicted and/or it does not diverge and represent a different solution from the first storyboard.</td>
-                                <td>The storyboard is easy to follow. Someone else could come up with a distinct prototype that would correspond with the point of view just from looking at the storyboard. It clearly diverges and represents a different solution from the first storyboard.</td>
-                            </tr>
-                            <tr>
-                                <td>Prototype #1<br><span style="color:lightGray;">3 points</span></td>
-                                <td>No prototype or completely irrelevant prototype.</td>
-                                <td>The prototype is not interactive or interactions are broken, and there is no defined purpose for many elements in the prototype. </td>
-                                <td>The prototype is mostly complete, although there are some functions that are not yet interactive, some elements have no defined purpose, and it can be difficult to know how to use certain parts of the prototype.</td>
-                                <td>The prototype has enough detail that the user can see all of the interactions, understand how they work, and a programmer could use the prototype to create a functional application with a defined flow. </td>
-                       </tr>
-
-                            <tr>
-                                <td>Prototype #2<br><span style="color:lightGray;">3 points</span></td>
-                                <td>No second prototype or completely irrelevant prototype.</td>
-                                <td>The prototype is not interactive or interactions are broken, and there is no defined purpose for many elements in the prototype. </td>
-                                <td>The prototype is mostly complete, although there are some functions that are not yet interactive, some elements have no defined purpose, and it can be difficult to know how to use certain parts of the prototype, and/or it does not diverge from the first prototype and explore different interfaces implementing the same idea.</td>
-                                <td>The prototype has enough detail that the user can see all of the interactions, understand how they work, and a programmer could use the prototype to create a functional application with a defined flow. The prototype clearly diverges from the first prototype and explores different interfaces implementing the same idea.</td>
-                       </tr>
-
-                            <tr><td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td><td colspan=3 align=right>Either one or both prototypes submitted were incredibly creative and innovative.</td></tr>
-
-
-                         </tbody></table>
+<? include "rubric.html" ?>                        
                     </div>
                 </div>
 				<div id='self-assessment' class='sidenav-anchor'>
 					<h2>Self Assessment</h2>
-					<a class='btn btn-primary' href="https://docs.google.com/forms/d/19r8SxPJp30TzRVOrrzcG-rCFCtYlzujzOdXYY_QCotg/viewform">During studio, click here to assess your group's work as a collective unit.</a>
+					<a class='btn btn-primary' href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1Hz0pk8407OP4JQ23xoqqPOICVOOGb1Brbeh0EuSHhWs">During studio, click here to assess your group's work as a collective unit.</a>
 					</br>
-					<a style="margin-top:10px" class='btn btn-primary' href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1nn6r4KXGk0h_i7ulc5BSxqvqrLDA5fkxL6MHpqtpMmI/viewform"> During studio, click here to assess your own work and each of your team member's work.</a>
+					<a style="margin-top:10px" class='btn btn-primary' href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1_uJC9shIj5JEnb5tDRFzhdLcCMuY3B0AN3xmz8lhfBY"> During studio, click here to assess your own work and each of your team member's work.</a>
 				</div>
             </div>
         </div>
