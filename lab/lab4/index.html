@@ -65,6 +65,18 @@
       When done, submit at <a href="https://docs.google.com/forms/d/1KhE-YhY2X3AyvbbzmQYKRGvvsI8i6s5QDJkMoAFyacA/viewform" class="alert-link">here</a>.
     </div>
 
+  <div id="slide-1" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>1</h2>
+    </div>
+    <img src="2014-lab-04-servers-final-gil-edit.000.jpg" class="img-responsive col-md-6"
+      title="1" />
+    <div class="col-md-5">
+    </div>
+  </div>
+  <hr></hr>
+
+
 
   <div id="slide-1" class="row lab-slide">
     <div class="col-md-1">
@@ -396,10 +408,22 @@
 
       <div class="debug">
         <h4>Debug</h4>
+        <div class='well well-sm'>
+          <span class='lead'>
+            <p>
+              I got the error <pre><code>$'\r': command not found issue</code></pre>
+            </p></span>
+            <p>
+              Windows tends to add extra 'return' (\r) characters at the end of each line in scripts/code. You can try doing this:
+            </p>
+          <code>sed -i 's/\r//' lab4/check-setup.sh</code>
+        </div>
+
         <div class="well well-sm">
           <span class="lead"><p>I got the error <pre><code>bash: lab4/check-setup.sh: No such file or directory</code></pre></p></span>
           <p>Make sure you're in your 'introHCI' directory and that you've cloned lab4 here.</p>
         </div>
+
       </div>
 
     </div>
