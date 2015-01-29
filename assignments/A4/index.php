@@ -109,8 +109,8 @@
 						<h4>Step 2: (Team) Receive 3 Heuristic Evaluations</h4>
 						<p>Now that you have prepared yourself to run your paper prototypes smoothly, you are ready to conduct a heuristic evaluation (HE) session. At least two team members should be present for all sessions. To facilitate this we will assign 3 evaluators to your team in studio, and provide time during the next lecture for you to perform back-to-back evaluations (one at a time). We highly recommend that you finish your heuristic evaluations over the weekend, so that lecture time can be dedicated to step 4, which students have found the most difficult to schedule in the past.</p>
 						<p>For each HE session, one person from your team will be the facilitator. What's a facilitator? The facilitator should greet the evaluator, explain how the session will work, and give a brief introduction to your prototypes. One (or more, if possible) person should be the computer. Once the evaluation has started, the facilitator (or more, if possible) should observe and take notes/pictures.</p>
-						<p>Make things easy for your evaluator by printing a sheet of Nielsen's heuristics. Prepare a sheet for them to fill out while evaluating. (Try using <a href="http://d.ucsd.edu/class/intro-hci/2015/HeuristicWorksheet.pdf" target="_blank">this worksheet</a>.) A good idea is to set up a spreadsheet on a laptop that you and the evaluator can share. (This spreadsheet makes it easy for the evaluator to do his assignment and for you to improve the design.) Remember that the evaluator is the expert. Let them explore and evaluate the interface as they choose, but make sure that they go over each of your two proposed prototypes.</p>
-						<p><b>For mobile apps of our courses scale, each evaluator should take about 20 minutes. </b></p>
+						<p>Make things easy for your evaluator by printing a sheet of Nielsen's heuristics. Prepare a sheet for them to fill out while evaluating. (Try using <a href="http://d.ucsd.edu/class/intro-hci/2015/HeuristicsWorksheet.pdf" target="_blank">this worksheet</a>.) A good idea is to set up a spreadsheet on a laptop that you and the evaluator can share. (This spreadsheet makes it easy for the evaluator to do his assignment and for you to improve the design.) Remember that the evaluator is the expert. Let them explore and evaluate the interface as they choose, but make sure that they go over each of your two proposed prototypes.</p>
+						<p><b>For mobile apps of our course's scale, each evaluator should take about 20 minutes. </b></p>
 					</div>
 
 
@@ -176,7 +176,7 @@
 						<ul>
 							<li>A heuristic evaluation of another group's two paper prototypes. This comprises a bulleted list of usability issues you found, along with their severity, for each prototype. Include comparative feedback between the two prototypes.<b>(Relation to Nielsen’s Heuristics, Volume of Feedback, Quality of Feedback, Severity Ratings)</b></li>
 							<li>A paragraph, written jointly with the other evaluators, addressing the major problems identified with the prototypes and potential solutions. Include a sentence or two reflecting on what kinds of things you found heuristic evaluation valuable for, and what kinds of things it's not very useful for. All evaluators of the same prototypes will submit this paragraph. <b>(Aggregate Evaluation & Reflection)</b></li>
-							<li>A link to the team's webapp home page, where all buttons from the home screen are linked to placeholders and the complete navigational skeleton of the webapp is implemented. <b>(Home Screen &&nbsp;Placeholder Screens)</b></li>
+							<li>A link to the team's webapp home screen. <b>(Home Screen &nbsp;)</b></li>
 						</ul>
 						<p><a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a></p>
 					</div>
@@ -229,11 +229,11 @@
 										<td>The conclusions reached by the evaluators as a group were more insightful than the aggregation of all the individual evaluations. Potential solutions to major usability problems were creative and insightful.</td>
 									</tr>
 									<tr>
-										<td>Home Screen &&nbsp;Placeholder Screens<br /><span style="color:lightGray;">3 points</span></td>
+										<td>Home Screen &nbsp;<br /><span style="color:lightGray;">3 points</span></td>
 										<td>No home screen provided.</td>
-										<td>Home screen has little content. Buttons are missing or are not linked.</td>
-										<td>The home screen appears to have most of its content. All buttons are linked to placeholders but there are some navigational dead ends.</td>
-										<td>Home screen content is very thoroughly developed. All buttons are linked and reversible. Complete navigational skeleton is implemented.</td>
+										<td>Home screen has little content. </td>
+										<td>The home screen appears to have most of its content. It does not need to be pretty or highly stylized. </td>
+										<td>Home screen content is very thoroughly developed. It does not need to be pretty or highly stylized.</td>
 									</tr>
 									<tr>
 										<td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
