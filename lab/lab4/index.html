@@ -109,6 +109,12 @@
       title="2" />
     <div class="col-md-5">
 
+    	      <div class="debug">
+        <h4>How will this lab help me?</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>This lab will help you generate pages in your app based on user input (and teach how to use JSON). Assignment 6 includes these tasks! </p></div>
+      </div>
+
     </div>
   </div>
 <hr></hr>
@@ -452,6 +458,9 @@
       <div class="code">
         <h4>Terminal</h4>
         <pre class='pre-scrollable'><code>$ bash lab4/check-setup.sh</code></pre>
+                If you see a message like below, your vagrant is set up correctly: <br/>
+        <pre class='pre-scrollable'>Running on Vagrant guest
+PASS: Vagrant is correctly set up.</pre>
       </div>
 
       <div class="debug">
@@ -482,6 +491,19 @@ Express server listening on port 3000</code></pre>
 
       <div class="debug">
         <h4>Debug</h4>
+        
+        <div class="well well-sm">
+        <pre class='pre-scrollable'><code>module.js:340
+    throw err;
+       	  ^
+Error: Cannot find module '/home/vagrant/app.js'
+		</code></pre>
+	Are you in lab5 directory?  
+	</div>
+
+      
+
+
         <div class="well well-sm">
           <span class="lead"><p>When I try to run <code>node app.js</code> I get a bunch of error messages, including the line <pre><code>Error: listen EADDRINUSE</code></pre></p></span>
           <p>This probably happened because Node crashed.  For instance, Vagrant might have disconnected you all of a sudden.<br /> To fix this problem, tell your browser to refresh http://localhost:3000 until you get "No data received" or a similar message.  Now try starting Node again.  Everything should be fine. <br /><br />Explanation: The message <code>EADDRINUSE</code> means that Node can't start listening on port 3000 because it's already in use.  The problem is that the last instance of Node failed to properly release port 3000 when it crashed.  By refreshing the webpage, we're getting the OS to realize 'Oh, the Node server isn't using port 3000 anymore' and consequently release it.</p>
@@ -623,6 +645,10 @@ Express server listening on port 3000</code></pre>
       <div class="debug">
         <h4>Debug</h4>
         <div class="well well-sm">
+        <pre><code>Error: listen EADDRINUSE</code></pre>
+        Explained in slide#28 Debug section :-)
+        </div>
+        <div class="well well-sm">
           <span class="lead"><p>My images didn't load!</p></span>
           <p>Restart node, see slide 31.</p>
         </div>
@@ -714,6 +740,7 @@ Express server listening on port 3000</code></pre>
         &lt;/a&gt;
       &lt;/div&gt;
     {{/each}}</code></pre>
+    These changes should be made in index.handlebars. You should know why! 
       </div>
 
     </div>
@@ -797,8 +824,13 @@ Express server listening on port 3000</code></pre>
 
       <div class="debug">
         <h4>Debug</h4>
+        
         <div class="well well-sm">
-          <span class="lead"><p>The list doesn't appear.</p></span>
+          <span class="lead"><p>The list doesn't appear on top of page!</p></span>
+          <p>Scroll down to bottom of the page. Adjust code accordingly.</p>
+        </div>
+        <div class="well well-sm">
+          <span class="lead"><p>The list doesn't appear at all.</p></span>
           <p>Restart node, see slide 31.</p>
         </div>
       </div>

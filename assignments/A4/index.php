@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Introduction to Human-Computer Interaction: Assignment">
+		<meta name="description" content="Introduction to Human-Computer Interaction: Assignment 4">
 		<title>Intro to HCI: Assignment 4</title>
 
 		<!-- Bootstrap -->
@@ -18,7 +18,7 @@
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body data-spy="scroll" data-target=".sidenav">
+	<body data-spy="scroll" data-target=".sidenav" data-offset=65>
 
 		<!--
 		IntroHCI assignment template
@@ -109,7 +109,7 @@
 						<h4>Step 2: (Team) Receive 3 Heuristic Evaluations</h4>
 						<p>Now that you have prepared yourself to run your paper prototypes smoothly, you are ready to conduct a heuristic evaluation (HE) session. At least two team members should be present for all sessions. To facilitate this we will assign 3 evaluators to your team in studio, and provide time during the next lecture for you to perform back-to-back evaluations (one at a time). We highly recommend that you finish your heuristic evaluations over the weekend, so that lecture time can be dedicated to step 4, which students have found the most difficult to schedule in the past.</p>
 						<p>For each HE session, one person from your team will be the facilitator. What's a facilitator? The facilitator should greet the evaluator, explain how the session will work, and give a brief introduction to your prototypes. One (or more, if possible) person should be the computer. Once the evaluation has started, the facilitator (or more, if possible) should observe and take notes/pictures.</p>
-						<p>Make things easy for your evaluator by printing a sheet of Nielsen's heuristics. Prepare a sheet for them to fill out while evaluating. (Try using <a href="http://d.ucsd.edu/class/intro-hci/2015/HeuristicsWorksheet.pdf" target="_blank">this worksheet</a>.) A good idea is to set up a spreadsheet on a laptop that you and the evaluator can share. (This spreadsheet makes it easy for the evaluator to do his assignment and for you to improve the design.) Remember that the evaluator is the expert. Let them explore and evaluate the interface as they choose, but make sure that they go over each of your two proposed prototypes.</p>
+						<p>Make things easy for your evaluator by printing a sheet of Nielsen's heuristics. Prepare a sheet for them to fill out while evaluating. (Try using <a href="http://d.ucsd.edu/class/intro-hci/2015/HeuristicsWorksheet.pdf" >this worksheet</a>.) A good idea is to set up a spreadsheet on a laptop that you and the evaluator can share. (This spreadsheet makes it easy for the evaluator to do his assignment and for you to improve the design.) Remember that the evaluator is the expert. Let them explore and evaluate the interface as they choose, but make sure that they go over each of your two proposed prototypes.</p>
 						<p><b>For mobile apps of our course's scale, each evaluator should take about 20 minutes. </b></p>
 					</div>
 
@@ -131,8 +131,8 @@
 					
 					<div id="createhome" class="sidenav-anchor">
 						<h4>Step 5: (Team) Create a Home Screen </h4>
-						<p>To get your feet wet with web development of your app, create a home screen. It should include the suggestions your evaluators have.  It shouldn't be pretty yet: don't worry about styling.
-
+						<p>To get your feet wet with web development of your app, create a home screen. It should include the suggestions your evaluators have.  It shouldn't be pretty yet: don't worry about styling.</p>
+					</div>
 					<div id="examples" class="sidenav-anchor">
 						<h2>Student Examples</h2>
 						<p><a href="http://d.ucsd.edu/class/intro-hci/2015/assignments/examples/pdfs/a04e1.pdf">Example 1</a> - This student did an incredibly thorough heuristic evaluation. We especially like how this student incorporated comparative feedback. Keep in mind that the this assignment was slightly different last year.</p>
@@ -174,9 +174,9 @@
 						<h2>Submit</h2>
 						<p>This assignment will be submitted <b>individually</b>, in a single formatted pdf file with the following items:</p>
 						<ul>
-							<li>A heuristic evaluation of another group's two paper prototypes. This comprises a bulleted list of usability issues you found, along with their severity, for each prototype. Include comparative feedback between the two prototypes.<b>(Relation to Nielsen’s Heuristics, Volume of Feedback, Quality of Feedback, Severity Ratings)</b></li>
+							<li>A typed heuristic evaluation of another group's two paper prototypes. This comprises a bulleted list of usability issues you found, along with their severity, for each prototype. Include comparative feedback between the two prototypes.<b>(Relation to Nielsen’s Heuristics, Volume of Feedback, Quality of Feedback, Severity Ratings)</b></li>
 							<li>A paragraph, written jointly with the other evaluators, addressing the major problems identified with the prototypes and potential solutions. Include a sentence or two reflecting on what kinds of things you found heuristic evaluation valuable for, and what kinds of things it's not very useful for. All evaluators of the same prototypes will submit this paragraph. <b>(Aggregate Evaluation & Reflection)</b></li>
-							<li>A link to the team's webapp home screen. <b>(Home Screen &nbsp;)</b></li>
+							<li>A link to the team's webapp home screen. <b>(Home Screen)</b></li>
 						</ul>
 						<p><a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a></p>
 					</div>
@@ -184,80 +184,21 @@
 					<div id="evaluation" class="sidenav-anchor">
 						<h2>Evaluation Criteria &amp; Grading Rubric</h2>
 						<div class="table-responsive">
-							<table class="table">
-								<tbody>
-									<tr>
-										<th id="guiding" valign="top">Category</th>
-										<th id="unsatisfactory" valign="top">Nope</th>
-										<th id="minimum" valign="top">Weak</th>
-										<th id="satisfactory" valign="top">Proficient</th>
-										<th id="above" valign="top">Mastery</th>
-									</tr>
-									<tr>
-										<td>Relation to Nielsen’s Heuristics<br /><span style="color:lightGray;">3 points</span></td>
-										<td>No relation to Nielsen’s heuristics.</td>
-										<td>Very few relations to Nielsen's heuristics at all.</td>
-										<td>Evaluation applies heuristics to partner's prototype in a useful, organized way--most of the time. There may be a few parts, though, that don't seem as related to the heuristics, which may make the reader wonder if the evaluator was still familiarizing himself with the heuristics during the evaluation.</td>
-										<td>Clearly grounded in Nielsen's heuristics. This evaluation could be used in the lecture about Nielsen's heuristics.</td>
-									</tr>
-									<tr>
-										<td>Volume of Feedback<br /><span style="color:lightGray;">3 points</span></td>
-										<td>No feedback given.</td>
-										<td>There is so little feedback that it suggests that there are virtually no problems with the prototypes, which (based on the TAs' knowledge of the prototypes being tested) is definitely not true.</td>
-										<td>There is a good amount of feedback, but there probably could be more. A reader gets the feeling that the evaluator was trying to be "nice" or "hold back" certain feedback.</td>
-										<td>You really couldn't ask for more. Clearly the evaluator "showed no mercy."</td>
-									</tr>
-									<tr>
-										<td>Quality of Feedback<br /><span style="color:lightGray;">3 points</span></td>
-										<td>No feedback given.</td>
-										<td>Most of the feedback was obvious (you could have come up with it without really going through the HE process) or vague (the designers might not be sure what the problem you're referring to is).</td>
-										<td>There is a good amount of high-quality feedback, but some feedback may still be obvious or vague. It also may lack a useful comparison between the two prototypes.</td>
-										<td>Insightful, widely varied feedback that compared the two prototypes. This feedback will give the designers a solid grasp of the advantages and drawbacks of each design, and help them decide which design or which features to implement.</td>
-									</tr>
-									<tr>
-										<td>Severity Ratings<br /><span style="color:lightGray;">3 points</span></td>
-										<td>No severity ratings given.</td>
-										<td>At least half of the problems have no ratings or confusing ratings. An example of a confusing rating: a piece of text that wasn't centered was somehow rated more severe than a missing screen or broken link.</td>
-										<td>Most of the problems have good ratings, but a few of them still have confusing ratings.</td>
-										<td>Pretty much all of the problems have good severity ratings. As a result, the group that made the prototypes can make a good prioritized list of problems to address in their designs.</td>
-									</tr>
-									<tr>
-										<td>Aggregate Evaluation &&nbsp;Reflection<br /><span style="color:lightGray;">3 points</span></td>
-										<td>None given.</td>
-										<td>The conclusions reached by the evaluators as a group was just a rehash of all the individual evaluations. No potential solutions to major usability problems were brainstormed.</td>
-										<td>The conclusions reached by the evaluators as a group was just a rehash of all the individual evaluations. Potential solutions to major usability problems were brainstormed, but they were obvious, and something that the group that made the prototypes could have figured out for themselves.</td>
-										<td>The conclusions reached by the evaluators as a group were more insightful than the aggregation of all the individual evaluations. Potential solutions to major usability problems were creative and insightful.</td>
-									</tr>
-									<tr>
-										<td>Home Screen &nbsp;<br /><span style="color:lightGray;">3 points</span></td>
-										<td>No home screen provided.</td>
-										<td>Home screen has little content. </td>
-										<td>The home screen appears to have most of its content. It does not need to be pretty or highly stylized. </td>
-										<td>Home screen content is very thoroughly developed. It does not need to be pretty or highly stylized.</td>
-									</tr>
-									<tr>
-										<td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
-										<td colspan=3 align=right>Multiple parts of the feedback were innovative and interesting. The student has obviously spent a lot of time and energy applying Nielsen's Heuristics in a clever manner.</td>
-									</tr>
-
-
-								</tbody></table>
-
-
+<? include "rubric.html" ?>                        
 						</div>
 					</div>
-					<div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
+					<div id='self-assessment' class='sidenav-anchor'>
 						<h2>Self assessment</h2>
-						<a class='btn btn-primary' href="https://docs.google.com/forms/d/1kqA1uiIF3YIhscIAw9ln_n9u7RJwbK1YP2PjqnBYxho/">During studio, click here to self assess your work.</a>
+						<a class='btn btn-primary' href="https://docs.google.com/forms/d/12EsLP--yqsTyl-5gpUg9Ao4Aq-bbS7jocV13_Co1v6k/viewform">During studio, click here to self assess your work.</a>
 					</div>
-				<br>
-				<footer>
-					<p>This course was created by <a href='http://d.ucsd.edu/srk'>Scott Klemmer</a>, and revised in collaboration with <a href='http://hci.stanford.edu/msb'>Michael Bernstein</a>, and our teaching staffs. Instructors: you are welcome to use these materials for your own class, and dozens of courses around the world do. We share all course materials <a href=https://creativecommons.org/licenses/by/4.0/deed.en_US
-					>through a CC-BY license</a>. Please let Scott know if you use them, and also any suggestions you have. We thank <a href=http://www.calit2.net/>CalIT2</a> and the <a href=http://www.jacobsschool.ucsd.edu/moxiecenter>Moxie Center</a> for helping support our studios.</p>
-				</footer>    
+				</div>
 			</div>
 		</div>
-
+		<br>
+		<footer>
+			<p>This course was created by <a href='http://d.ucsd.edu/srk'>Scott Klemmer</a>, and revised in collaboration with <a href='http://hci.stanford.edu/msb'>Michael Bernstein</a>, and our teaching staffs. Instructors: you are welcome to use these materials for your own class, and dozens of courses around the world do. We share all course materials <a href=https://creativecommons.org/licenses/by/4.0/deed.en_US
+			>through a CC-BY license</a>. Please let Scott know if you use them, and also any suggestions you have. We thank <a href=http://www.calit2.net/>CalIT2</a> and the <a href=http://www.jacobsschool.ucsd.edu/moxiecenter>Moxie Center</a> for helping support our studios.</p>
+		</footer>   
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->

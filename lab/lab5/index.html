@@ -39,7 +39,7 @@
             <li class=""><a href="../index.html">Home</a></li>
             <li><a href="../index.html#calendar">Calendar</a></li>
             <li><a href="../studio.html">Studio</a></li>
-            <li ><a href="../mobile_app_tips.html">Using on-device resources</a></li>
+            <li ><a href="../mobile_app_tips.html">Resources for Mobile Web Applications</a></li>
             <li class="dropdown active">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -85,6 +85,12 @@
     <img src="2014-lab-05-putting-it-together-beta.002.jpg" class="img-responsive col-md-6"
       title="2" />
     <div class="col-md-5">
+    	
+    	    	      <div class="debug">
+        <h4>How will this lab help me?</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>This lab will get you well-versed in using JSON and handlebars to generate pages. They form an important portion of your app. Assignment 6 and 7 include these tasks! </p></div>
+      </div>
 
     </div>
   </div>
@@ -190,6 +196,16 @@
           <p>vagrant</p>
         </div>
       </div>
+      
+      <div class="debug">
+        <h4>Debug</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>I got the error <pre><code>ERROR: You must run this script with sudo</code></pre></p></span>
+          <p>Try the same command but this time write "sudo" before the command. <br>
+          <code>sudo bash lab5/check-setup.sh </code></p>
+          Pro-tip: Find out what sudo means and what it does. <br> (Hint: Use manual pages on terminal: <code>man sudo</code> (interesting!) or use Google (boring))
+        </div>
+      </div>
 
     </div>
   </div>
@@ -257,6 +273,18 @@ Express server listening on port 3000</code></pre>
           <p>This probably happened because Node crashed.  For instance, Vagrant might have disconnected you all of a sudden.<br /> To fix this problem, tell your browser to refresh http://localhost:3000 until you get "No data received" or a similar message.  Now try starting Node again.  Everything should be fine. <br /><br />Explanation: The message <code>EADDRINUSE</code> means that Node can't start listening on port 3000 because it's already in use.  The problem is that the last instance of Node failed to properly release port 3000 when it crashed.  By refreshing the webpage, we're getting the OS to realize 'Oh, the Node server isn't using port 3000 anymore' and consequently release it.</p>
         </div>
       </div>
+      
+      <div class="debug">
+        <h4>Debug</h4>  
+        <div class="well well-sm">
+        <pre class='pre-scrollable'><code>module.js:340
+    throw err;
+       	  ^
+Error: Cannot find module '/home/vagrant/app.js'
+		</code></pre>
+	Are you in lab5 directory?
+	</div>
+
 
     </div>
   </div>
@@ -307,6 +335,7 @@ Express server listening on port 3000</code></pre>
     </div>
     <img src="2014-lab-05-putting-it-together-beta.015.jpg" class="img-responsive col-md-6"
       title="15" />
+      
     <div class="col-md-5">
       <h4>Links</h4>
       <ul>
@@ -317,8 +346,32 @@ Express server listening on port 3000</code></pre>
           <a target="_blank" href="../lab4/index.html#slide-11">Lab 4, slide 11, HTML file location</a>
         </li>
       </ul>
+     
+ 
+      <div class="debug">
+        <h4>Debug</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>I don't understand how to include javascript in my html. Where is the html?</p></span>
+          <p>".handlebar" files contain the html and "public/js" contains the javascript files! Now just like Lab4, slide 26, add the script tags with the script files location in the handlebar file!</p>  	
+          </div>
+      </div> 
+      
+      <div class="debug">
+        <h4>Debug</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>I think I have included the javascript correctly but my browser console keeps saying this upon refresh: <pre><code>Uncaught ReferenceError: $ is not defined</code></pre></p></span>
+          <p>You have included the files correctly. Just ensure that the jquery script is the first one you include, followed by hci-friends and bootstrap.</p>  	
+          </div>
+      </div> 
+   
+      
     </div>
-  </div>
+    
+
+    </div>
+    
+
+      
 <hr></hr>
 
   <div id="slide-16" class="row lab-slide">
