@@ -93,19 +93,24 @@
 
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
-                    <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress this week on the interaction design. Use the JSON and handlebars techniques you learned in lab (or equivalent technology) to populate the data for your application and deliver rich interactivity.</p>
-                    <p>Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.)</p>
+                    <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress on the interaction design. Use the JSON and handlebars techniques you learned in lab (or equivalent technology) to populate the data for your application and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. Eventually, you will be required to send and retrieve data from your database as part of the final project requirements. But for now, you are only focusing on retrieving and manipulating fixed data that need not be updated on the back end. In terms of Lab 5, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. </p>
+                    <p>Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.
+</p>
                 </div>
 
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
-                    <p><a href=https://docs.google.com/spreadsheet/ccc?key=0AlCum_THvFsddGJlR1FrZ2xiSzlRdFZfUHBKcm9HUVE#gid=0>Here is an example of a pretty good plan</a> (except that it's missing time estimates). <a href=https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0>Here is an example of a mediocre plan.</a></p>
-                    <p><a href="examples/images/a06e1p1.mp4">ClassBook</a>: Great overall interaction and focus on building out data functionality.</p>
+                    <p>Here are some examples of development plans:<a href="https://docs.google.com/spreadsheet/ccc?key=0Ame-4omKIpLddDlvTGFqN0JqNEVXbGRGSndLc2NuTUE&usp=sharing" target="_blank"> (1)</a> is very stylized, dynamic, and mostly thorough,<a href="https://docs.google.com/spreadsheet/ccc?key=0AlCum_THvFsddGJlR1FrZ2xiSzlRdFZfUHBKcm9HUVE#gid=0" target="_blank"> (2)</a> is fairly thorough, colorful, but is missing time estimates and has only one stretch goal listed,
+					<a href="https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0" target="_blank"> (3)</a> is a mediocre plan that's mostly thorough, where most tasks are broken down into less than 1 hour chunks,
+					<a href="https://docs.google.com/spreadsheet/ccc?key=0AnCm_JDaoi7ndG5fNl92YUFrWDgwdUxyVVB2azg5SVE#gid=2" target="_blank"> (4)</a> is very thorough, with time estimates and time costs, but some tasks could be more actionable,
+					<a href="http://www.google.com/url?q=http%3A%2F%2Fspark-public.s3.amazonaws.com%2Fhci%2Fsource_videos%2FEvolutionOfAProjectPlan.mp4&sa=D&sntz=1&usg=AFQjCNECkSqe0VFyN4wOICycQIFhJoAslg" target="_blank"> (5)</a> is a great video of the dynamic nature of implementation plans throughout the project.</p>
+					
+					<p>Stay tuned for an example of a complete home screen, key screens, and navigational skeleton. </p>
                 </div>
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
-                        <li>The URL of the prototype version that you want us to see. Note: the URL must work at least until your assignment is graded. If it doesn't work, you'll receive no credit. <b>(Interaction Flow)</b></li>
+                        <li>The URL of the prototype version that you want us to see. Note: the URL must work at least until your assignment is graded. If it doesn't work, you'll receive no credit. <b>(Interaction Flow, Use of Data in Prototype)</b></li>
                         <li>The PDF of your development plan that you submitted last week. <b>(Goals)</b></li>
                         <li>The PDF of your updated development plan. (<i>We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison.</i>) <b>(Updated Development Plan)</b></li>
                         <li>The shared Github URL for your project. <b>(Github Repo)</b></li>
@@ -146,7 +151,7 @@
                                     <td>0: No goals were met.</td>
                                     <td>1: Only a few goals were met.</td>
                                     <td>3: Most, but not all, of the goals were met.</td>
-                                    <td>4: All goals were met.</td>
+                                    <td>4: All goals were met. Stretch goals need not be met.</td>
                                 </tr>
                                 <tr>
                                     <td>Updated Development Plan<br /><span style="color:lightGray;">3 points</span></td>
@@ -161,7 +166,7 @@
                                 </tr>
                                 <tr>
                                     <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
-                                    <td colspan=3 align=right>Pages are complete and all functionality is in place. The team is way ahead of the curve with respect to the interactions in their application.</td>
+                                    <td colspan=3 align=right>Pages are complete and all functionality is in place. Weekly stretch goals are met. The team is way ahead of the curve with respect to the interactions in their application.</td>
                                 </tr>
                             </tbody>
                         </table>

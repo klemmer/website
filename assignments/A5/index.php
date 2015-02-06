@@ -121,7 +121,7 @@
                 </div>
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
-					<P>
+					<p>
 					Here are some examples of development plans:<a href="https://docs.google.com/spreadsheet/ccc?key=0Ame-4omKIpLddDlvTGFqN0JqNEVXbGRGSndLc2NuTUE&usp=sharing" target="_blank"> (1)</a> is very stylized, dynamic, and mostly thorough,<a href="https://docs.google.com/spreadsheet/ccc?key=0AlCum_THvFsddGJlR1FrZ2xiSzlRdFZfUHBKcm9HUVE#gid=0" target="_blank"> (2)</a> is fairly thorough, colorful, but is missing time estimates and has only one stretch goal listed,
 					<a href="https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0" target="_blank"> (3)</a> is a mediocre plan that's mostly thorough, where most tasks are broken down into less than 1 hour chunks,
 					<a href="https://docs.google.com/spreadsheet/ccc?key=0AnCm_JDaoi7ndG5fNl92YUFrWDgwdUxyVVB2azg5SVE#gid=2" target="_blank"> (4)</a> is very thorough, with time estimates and time costs, but some tasks could be more actionable,
