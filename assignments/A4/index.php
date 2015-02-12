@@ -92,7 +92,7 @@
 					</div> -->
 					<div id="brief" class="sidenav-anchor">
 						<h2>Brief</h2>
-						<p>As Carolyn Snyder writes, "Paper prototyping is a variation of usability testing where the representative users perform realistic tasks by interacting with a paper version of the interface that is manipulated by a person 'playing computer' who doesn't explain how the interface is intended to work." In this assignment, your group will conduct heuristic evaluations (HEs) of your paper prototypes and you will individually help out other groups by evaluating theirs. This will complete the prototyping phase of the project, providing you with the feedback you need to begin implementing.</p>
+						<p>As Carolyn Snyder writes, "Paper prototyping is a variation of usability testing where the representative users perform realistic tasks by interacting with a paper version of the interface that is manipulated by a person 'playing computer' who doesn't explain how the interface is intended to work." In this assignment, your will conduct heuristic evaluations (HEs) of <b>another</b> team's paper prototype. In studio, you will be assigned a group to evaluate.</p>
 					</div>
 
 					<div id="assignment" class="sidenav-anchor">

@@ -91,7 +91,7 @@
 
                 <div id="revisithe" class="sidenav-anchor">
                     <h4>Step 1: Revisit Heuristic Evaluations</h4>
-                    <p>Review and write a list of HE violations from the feedback you got last week. Distill the HE results into a list of concrete changes you want to make to your prototype. Use what worked, and improve what didn't. If you haven't already, make a decision about the prototype you are going with. This could be one of the two you tested or a combination of them. Again, take the time you need. This is what you will be working on for the rest of the course, so make sure you will feel invested in it. Your team may decide to pivot your prototype idea and go in a different direction. We encourage you to review your studio brief and focus on what is essential about the interaction you are trying to design for, and decide if such a change is necessary.</p>
+                    <p>Review and write a list of HE violations from the feedback you got last week. Distill the HE results into a list of concrete changes you want to make to your prototype. Use what worked, and improve what didn't. If you haven't already, make a decision about the prototype you are going with. This could be one of the two you tested or a combination of them. Again, take the time you need. This is what you will be working on for the rest of the course, so make sure you will feel invested in it. Your team may decide to pivot your prototype idea and go in a different direction. Review your studio brief. As you revise your ideas and designs, make sure your project serves a task for a user, and connects to the studio brief.</p>
                 </div>
 
                 <div id="developplan" class="sidenav-anchor">
@@ -108,7 +108,7 @@
                 </div>
 				<div id="revisitthebrief" class="sidenav-anchor">
 					<h4>Step 4: Revisit the Brief</h4>
-					<p>Write a paragraph summary explaining how your team has used the tools you’ve learned so far to meet the constraints of your studio’s brief, how well your project fits the brief, and why. Write about the changes that your team has made to your design as a consequence of these reflections.</p>
+					<p>Write a paragraph summarizing how your team has used the tools you’ve learned so far to meet your studio’s brief, how well your project fits the brief, and why. Summarize the user and task that you are designing for.</p>
 				</div>
 				<div id="instudio" class="sidenav-anchor">
 					<h4>In Studio</h4>
@@ -139,10 +139,11 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Team Submission</h2>
                     <ul>
-                        <li>A list of HE violations and a list of changes your team is making to your prototype. <b>(List of Changes)</b></li>
+                        <li>A list of HE violations</li>
+                        <li>A list of changes your team has made and will make to your prototype. <b>(List of Changes)</b></li>
                         <li>A link to a PDF of your development plan. (<i>We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison.</i>) <b>(Development Plan)</b> </li>
                         <li>URL of your prototype. <b>(Home Screen & Key Screens, Navigational Skeleton)</b></li>
-						<li>A paragraph that revisits the studio brief and reflects on the project's trajectory within the brief's constraints. <b>(Brief Revisit Summary)</b></li>
+						<li>A paragraph summarizing the user, task, and how your project meets the studio brief. <b>(Brief Revisit Summary)</b></li>
                     </ul>
                     <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
 
@@ -191,12 +192,12 @@
 								<tr>
                                     <td>Revisit the Brief<br /><span style="color:lightGray;">2 points</span></td>
                                     <td>No paragraph submitted.</td>
-                                    <td>The paragraph is written, but has no real insight. No changes were made to the project as a consequence. </td>
+                                    <td>Paragraph doesn't clearly explain the user, task, and/or relationship of the project to the brief.</td>
                                     <td>The paragraph is written with insight, and changes to the project were made to reflect these insights if necessary.</td>
                                     <td>The paragraph is a thoughtful reflection of the project’s trajectory so far, and how it has fit into the brief. The project meets the brief's constraints well.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">+1. Up to 5% of submissions.</span></td>
+                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">+1. Reserved for unusually impressive submissions.</span></td>
                                     <td colspan=3 align=right>The changes based on the heuristic evaluation are not only insightful and specific, but show creativity and thought in the changes that are made. These changes do not just change the prototype in the most obvious manner to get rid of the HE violation, but reflect careful design to avoid HE violations in the future.</td>
                                 </tr>
                             </tbody>

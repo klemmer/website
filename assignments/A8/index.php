@@ -130,7 +130,7 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
-                        <li>Captioned photos for each participant testing your prototype, a study plan and signed consent forms.<b>(In-person Test)</b></li>
+                        <li>Captioned photos for each participant testing your prototype, a study plan and signed consent forms.<b>(Documentation)</b></li>
 
                         <li>A list of changes you will implement in your next iteration. For each change, include a brief explanation for why you selected it. Describe it with enough detail that someone outside of your team can understand it.<b>(Planned Changes based on Test)</b></li>
 
@@ -159,14 +159,19 @@
                                     <th id="above" valign="top">Mastery</th>
                                 </tr>
                                 <tr>
-                                    <td>In-person Test<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No user study was performed. </td>
-                                    <td>1: Photos of only one participant, the study was poorly planned, or study materials were not included.</td>
-                                    <td>3: Photos of two or more participants. The study captured some information, but is incomplete. The captions don't reflect the breakdown shown in the photos or the photos don't demonstrate a breakdown.</td>
-                                    <td>4: Photos of two or more participants. Study materials (photos w/captions, plan, consent forms) are complete and reveal some very useful information. The photos and the captions show clear breakdowns.</td>
+                                    <td>Final Study plan<br /><span style="color:lightGray;">2 pts</span></td>
+                                    <td>Missing or very sketchy study plan.</td>
+                                    <td colspan=2 align=center>Complete but poorly conceived study plan.</td>
+                                    <td>Study plan well-designed.</td>
                                 </tr>
                                 <tr>
-                                    <td>Planned Changes based on Test<br /><span style="color:lightGray;">2 points</span></td>
+                                    <td>Photo Documentation<br /><span style="color:lightGray;">2 pts</span></td>
+                                    <td>Photo(s) of less than two participants.</td>
+                                    <td colspan=2 align=center>Photo(s) of two or more participants. Captions missing or vague.</td>
+                                    <td>Photo(s) of two or more participants. The photos and the captions show clear breakdowns.</td>
+                                </tr>
+                                <tr>
+                                    <td>Planned Changes<br /><span style="color:lightGray;">2 points</span></td>
                                     <td colspan=2>0: No changes listed or irrelevant changes.</td>
                                     <td>1: The student presented several possible changes derived from the user testing data, although not all of the changes were useful or some important changes were overlooked.</td>
                                     <td>2: The student suggested several possible changes based on the user testing, all of which were important and directly addressed the problems identified in user testing.</td>
@@ -179,7 +184,7 @@
                                     <td>3: The redesign addresses an issue found in testing to satisfy a real user need.</td>
                                 </tr>
                                 <tr>
-                                    <td>Description of Planned Online Test<br /><span style="color:lightGray;">2 points</span></td>
+                                    <td>Online Test Plan<br /><span style="color:lightGray;">2 points</span></td>
                                     <td colspan=2>0: No description submitted, or the online test is not well thought out.</td>
                                     <td>1: The online test is designed to produce some useful data, however, it may not be motivated by real usability issues.</td>
                                     <td>2: The online test is clearly motivated or innovative in a way that will provide rich and interesting data.</td>
@@ -191,8 +196,8 @@
                                     <td>2: Plan is detailed and reflect progress, new tasks, and any changes to previous tasks.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
-                                    <td colspan=3 align=right>The alternative redesign is more than a structure change. It directly highlights a different UI overall, and gives a different user experience that competes well with the current version (such that you are almost unsure about which UI would actually perform better)</td>
+                                    <td headers="guiding" colspan=2>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
+                                    <td colspan=3 align=right>Not just a small tweak or bit of polish. The alternative redesign introduces a creative, conceptually different, and likely much improved user experience.</td>
                                 </tr>
                             </tbody>
                         </table>

@@ -111,9 +111,10 @@
                     <h2>Submit</h2>
                     <ul>
                         <li>The URL of the prototype version that you want us to see. Note: the URL must work at least until your assignment is graded. If it doesn't work, you'll receive no credit. <b>(Functionality, Data/Templates, Mobile Design)</b></li>
+                        <li>The shared Github URL for your project, JSON filename, template-using filename.<b>(Data & Templates)</b></li>
                         <li>The PDF of your development plan that you submitted last week. <b>(Goals)</b></li>
                         <li>The PDF of your updated development plan. (<i>We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison.</i>) <b>(Updated Development Plan)</b></li>
-                        <li>The shared github repo for your project. <b>(Github Repo)</b></li>
+                        <li>2-3 sentences outlining the task that you will have users do next week. This should include any needed login/password information. <b>(Task description)</b></li>
                     </ul>
                     <p>Note: since we may grade your assignment up to a few days after submission, per the honor code, we expect that the prototype URL show the state of your prototype at the time of submission. You will very likely be updating your prototype after submission, but please do so on another version.</p>
                     <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
@@ -140,7 +141,7 @@
                                 </tr>
                                 <tr>
                                     <td>Data/Templates<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td colspan=2>0: No data customization.</td>
+                                    <td colspan=2>No Github URL; or if Github URL present, no data customization.</td>
                                     <td>1: Data customization (e.g., JSON/Handlebars) in key places.</td>
                                     <td>2: Pervasive data customization and templating. All major functionality is templated rather than copied & pasted.</td>
                                 </tr>
@@ -159,15 +160,17 @@
                                     <td>3: All goals were met.</td>
                                 </tr>
                                 <tr>
-                                    <td>Updated Development Plan<br /><span style="color:lightGray;">3 points</span></td>
+                                    <td>Updated Development Plan<br /><span style="color:lightGray;">2 pts</span></td>
                                     <td>0: No updates to plan.</td>
                                     <td>1: Plan reflects some minor changes.</td>
                                     <td>2: Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable.</td>
                                     <td>3: Plan is detailed and reflects progress, new tasks, and any changes to previous tasks.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding" colspan=2><br>Github Repo<br><span style="color:lightGray;"><span style="color:lightGray;">1 point.</span></td>
-                                    <td colspan=3 align=right>Github Repo URL present.</td>
+                                    <td headers="guiding"><br>Task Description<br><span style="color:lightGray;"><span style="color:lightGray;">2 pts</span></td>
+                                    <td >Github Repo URL & 2-sentence task description present.</td>
+                                    <td colspan=2 align=middle>Github Repo URL & 2-sentence task description present.</td>
+                                    <td >Github Repo URL & 2-sentence task description present.</td>
                                 </tr>
                                 <tr>
                                     <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
