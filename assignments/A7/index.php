@@ -93,18 +93,25 @@
 
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
-                    <p>By the end of this week your interactive prototypes should be fully functional. Use the JSON and handlebars techniques that you learned in lab (or equivalent technology) to populate the data for your application. Remember, we are not at the "making it pretty" phase yet, so don't procrastinate by playing with Photoshop. If you planned it out right and you have been doing your work, you should be in good shape. If not, it's time to step it up. You will get much less out of user testing if you are still struggling with bugs and a half finished interface.</p>
-                    <p>Keep updating your development plan. You'll submit it again this week. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.)</p>
-                </div>
+                    <p>By the end of this week, your interactive prototypes should be fully functional. Your app should write JSON data as well as read it. (The JSON data won't be persistent when you close the browser, but it will endure across pages within the same session.) Your app should have several pages where users can submit and view data stored in JSON. Remember, we are not at the "making it pretty" phase yet, so don't procrastinate by playing with Photoshop. If you planned it out right and you have been doing your work, you should be in good shape. If not, it's time to step it up. You will get much less out of user testing if you are still struggling with bugs and a half finished interface.</p>
 
+                    <p>Follow the development plan you created last week, and update it as you go. Keep marking tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
+                </div>
+				<div id="submit" class="sidenav-anchor">
+                    <h2>In Studio</h2>
+					<p>In studio, to follow up this assignment, you will receive feedback in the form of a brief heuristic evaluation from another member of your studio directly. Your team will pool that feedback, update your implementation plan accordingly, and then present your app to the whole studio.</p>
+				</div>
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
-                    <p><a href=https://docs.google.com/spreadsheet/ccc?key=0AlCum_THvFsddGJlR1FrZ2xiSzlRdFZfUHBKcm9HUVE#gid=0>Here is an example of a pretty good development plan</a> (except that it's missing time estimates).</p>
+                    <p>Here are some examples of development plans:<a href="https://docs.google.com/spreadsheet/ccc?key=0Ame-4omKIpLddDlvTGFqN0JqNEVXbGRGSndLc2NuTUE&usp=sharing" target="_blank"> (1) is very stylized</a>, dynamic, and mostly thorough,<a href="https://docs.google.com/spreadsheet/ccc?key=0AlCum_THvFsddGJlR1FrZ2xiSzlRdFZfUHBKcm9HUVE#gid=0" target="_blank"> (2) is fairly thorough</a>, colorful, but is missing time estimates and has only one stretch goal listed,
+					<a href="https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0" target="_blank"> (3) is a mediocre plan</a> that's mostly thorough, where most tasks are broken down into less than 1 hour chunks,
+					<a href="https://docs.google.com/spreadsheet/ccc?key=0AnCm_JDaoi7ndG5fNl92YUFrWDgwdUxyVVB2azg5SVE#gid=2" target="_blank"> (4) is very thorough</a>, with time estimates and time costs, but some tasks could be more actionable,
+					<a href="http://www.google.com/url?q=http%3A%2F%2Fspark-public.s3.amazonaws.com%2Fhci%2Fsource_videos%2FEvolutionOfAProjectPlan.mp4&sa=D&sntz=1&usg=AFQjCNECkSqe0VFyN4wOICycQIFhJoAslg" target="_blank"> (5) is a great video</a> of the dynamic nature of implementation plans throughout the project.</p>
 
-                    <p><a href="examples/images/a07e1p1.mp4">GradeSource++</a>: This example project from last year abstracts GradeSource for you and works with the data to show you where you are in a class. </p>
-                    <p><a href="examples/images/a07e2p1.mp4">Balancr</a>: This app helps people balance their time between work and play. They have done a wonderful job making the app functional-- you can create a sign-up, add activities, and see it reflected on the pie chart.</p>
-
-
+                    <p><a href="../examples/images/a07e1p1.mp4">GradeSource++</a>: This example project from last year abstracts GradeSource for you and works with the data to show you where you are in a class. </p>
+                    <p><a href="../examples/images/a07e2p1.mp4">Balancr</a>: This app helps people balance their time between work and play. They have done a wonderful job making the app functional-- you can create a sign-up, add activities, and see it reflected on the pie chart.</p>
+					<p>For both examples above, the data that undergirds the functionality of the apps are pre-populated and updated from JSON. For instance,login information should be stored as JSON. You should have a pre-canned user that is persistent, and the ability for creating a new user whose credentials will be stored in JSON for the duration of the session.</p>
+					
                 </div>
 
                 <div id="submit" class="sidenav-anchor">
@@ -134,7 +141,7 @@
                                 </tr>
                                 <tr>
                                     <td>Functionality<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No pages are connected and interactive.</td>
+                                    <td>0: No pages are connected and interactive. The app is not available through heroku or equivalent.</td>
                                     <td>1: Prototype lacks a lot of features or has many bugs.</td>
                                     <td>2: Prototype is mostly complete but may still lack one or two features.</td>
                                     <td>3: Prototype is completely functional and ready for user testing. While not completely polished, the overall look and feel is reflective of the final prototype.</td>
@@ -168,12 +175,12 @@
                                 </tr>
                                 <tr>
                                     <td headers="guiding"><br>Task Description<br><span style="color:lightGray;"><span style="color:lightGray;">2 pts</span></td>
-                                    <td >Github Repo URL & 2-sentence task description present.</td>
-                                    <td colspan=2 align=middle>Github Repo URL & 2-sentence task description present.</td>
-                                    <td >Github Repo URL & 2-sentence task description present.</td>
+                                    <td >Task description missing, shorter than 2 sentences, or extremely vague.</td>
+                                    <td colspan=2 align=middle> 2-3 sentence task description present. Task lacks clarity and would be confusing to user. Not clear that you'll learn what you need to improve your app.</td>
+                                    <td >The 2-3 sentences clearly describe a concrete task that reflects your app's core functionality. The task will help you learn what you need to improve your app.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
+                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 pt. Reserved for unusually impressive submissions.</span></td>
                                     <td colspan=3 align=right>Your prototype is amazing and the TAs are extremely impressed with how complete it is. Not only is everything working, you have either solved an incredibly difficult engineering problem or you have introduced an extremely unique design. Your prototype shows thought and care. You should turn your app into a start-up or at least bring it to market.</td>
                                 </tr>
                             </tbody>

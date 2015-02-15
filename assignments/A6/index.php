@@ -93,10 +93,13 @@
 
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
-                    <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress on the interaction design. Use the JSON and handlebars techniques you learned in lab (or equivalent technology) to populate the data for your application and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. Eventually, you will be required to send and retrieve data from your database as part of the final project requirements. But for now, you are only focusing on retrieving and manipulating fixed data that need not be updated on the back end. In terms of Lab 5, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. </p>
-                    <p>Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.
-</p>
+                    <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress on the interaction design. Using <a href=http://d.ucsd.edu/class/intro-hci/2015/lab/lab4>the handlebars techniques you learned in lab</a>, read data from JSON to customize the presentation of pages and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. Eventually, you will be required to send and retrieve data from your database as part of the final project requirements. But for now, you are only focusing on retrieving and manipulating fixed data that need not be updated on the back end. In terms of Lab 5, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. </p>
+                    <p>Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
                 </div>
+				<div id="instudio" class="sidenav-anchor">
+					<h2>In Studio</h2>
+                    <p>When you arrive to studio this week, your studio leader will have your design loaded on a mobile device, plugged into the shared display. A member of your studio who is not on your team will walk through your prototype and think out loud as they do so. You will receive feedback, and then discuss your development plan with your studio.</p>
+				</div>
 
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
@@ -106,6 +109,10 @@
 					<a href="http://www.google.com/url?q=http%3A%2F%2Fspark-public.s3.amazonaws.com%2Fhci%2Fsource_videos%2FEvolutionOfAProjectPlan.mp4&sa=D&sntz=1&usg=AFQjCNECkSqe0VFyN4wOICycQIFhJoAslg" target="_blank"> (5) is a great video</a> of the dynamic nature of implementation plans throughout the project.</p>
 					
 					<p>In this assignment, we want to emphasize the user task at this stage of development. The interface should be fluid with respect to a particular task made intuitively easy to step through as a user. <a href="http://iamherefor.com/index.html" target="_blank"> Here we see a good example of an app that is fully centered on the user's task. </a> For this assignment, this team would complete functionality by capturing all of the relevant information entered into the text boxes, and updating the content of each page with that new information.</p>
+					
+					<p><a href="../examples/images/a07e1p1.mp4">GradeSource++</a>: This example project from last year abstracts GradeSource for you and works with the data to show you where you are in a class. </p>
+                    <p><a href="../examples/images/a07e2p1.mp4">Balancr</a>: This app helps people balance their time between work and play. They have done a wonderful job making the app functional-- you can create a sign-up, add activities, and see it reflected on the pie chart.</p>
+					<p>For both examples above, simply imagine that the data that undergirds the functionality of the apps are only temporarily stored in a data variable that is pre-populated with data from a .json file. Next week, the focus will be on creating a more persistent database for your app.</p>
                 </div>
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
@@ -135,38 +142,38 @@
                                 </tr>
                                 <tr>
                                     <td>Interaction Flow<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No pages are connected and interactive. Handlebars were not used.</td>
-                                    <td>1: Few pages are connected interactive. Handlebars were used only sometimes.</td>
-                                    <td>3: Most pages are connected and interactive. Handlebars were used.</td>
-                                    <td>4: Overall flow and navigation are complete. Pages are fleshed out and interactive. Handlebars were used and used JSON data templating.</td>
+                                    <td>0: No pages are connected and interactive.</td>
+                                    <td>1: Few pages are connected interactive. </td>
+                                    <td>3: Most pages are connected and interactive.</td>
+                                    <td>4: Overall flow and navigation are complete. Pages are fleshed out and interactive.</td>
                                 </tr>
                                 <tr>
-                                    <td>Use of Data (e.g., JSON) in Prototype<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No pages in the prototype are populated with data.</td>
-                                    <td>1: A few pages in the prototype are populated with data OR header/footer included programmatically, as opposed to copy&paste (either sufficient).</td>
-                                    <td>2: Most pages in the prototype are populated with data OR login/other rich interactivity implemented (either sufficient).</td>
-                                    <td>3: The entire prototype uses pages populated with data to deliver rich interactivity.</td>
+                                    <td>Reading data w/JSON & Handlebars (or equivalent)<br /><span style="color:lightGray;">3 points</span></td>
+                                    <td>0: No pages read JSON data with Handlebars (or equivalent).</td>
+                                    <td>1: A few pages read data. OR header/footer included programmatically, as opposed to copy&paste (either sufficient). Handlebars were used only sometimes.</td>
+                                    <td>2: Most pages read JSON data OR login/other rich interactivity implemented (either sufficient). Handlebars were used.</td>
+                                    <td>3: The entire prototype uses Handlebars to read JSON data and deliver rich interactivity.</td>
                                 </tr>
                                 <tr>
-                                    <td>Goals<br /><span style="color:lightGray;">4 points</span></td>
+                                    <td>Goals Met<br /><span style="color:lightGray;">4 points</span></td>
                                     <td>0: No goals were met.</td>
                                     <td>1: Only a few goals were met.</td>
                                     <td>3: Most, but not all, of the goals were met.</td>
                                     <td>4: All goals were met. Stretch goals need not be met.</td>
                                 </tr>
                                 <tr>
-                                    <td>Updated Development Plan<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No updates to plan.</td>
-                                    <td>1: Plan reflects some minor changes. Only one member did the majority of the work.</td>
-                                    <td>2: Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable. Only two members did the majority of the work, excepting external constraints that were identified.</td>
-                                    <td>3: Plan is detailed and reflects progress, new tasks, and any changes to previous tasks. All three members contributed by taking into account external constraints and thoughtfully distributing workload.</td>
+                                    <td>Development Plan: Quality & Updates<br /><span style="color:lightGray;">3 points</span></td>
+                                    <td>No updates to plan.</td>
+                                    <td>Aspects of the plan remain are not actionable or overly vague; changes were insufficient. For example, "working on the home page" is much too vague as a line item :)<br>And/or only one member did the majority of the work.</td>
+                                    <td>Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable. Only two members did the majority of the work, excepting external constraints that were identified.</td>
+                                    <td>Plan items are comprehensive and actionable (like "Implement allergies as a search parameter"). Plan reflects progress, new tasks, and any changes to previous tasks. All three members contributed by taking into account external constraints and thoughtfully distributing workload.</td>
                                 </tr>
                                 <tr>
                                     <td headers="guiding" colspan=2><br>Supporting Info<br><span style="color:lightGray;"><span style="color:lightGray;">1 point.</span></td>
                                     <td colspan=3 align=right>Github Repo URL & 2-sentence task description present.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Reserved for unusually impressive submissions.</span></td>
+                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 pt. Reserved for unusually impressive submissions.</span></td>
                                     <td colspan=3 align=right>Pages are complete and all functionality is in place. Weekly stretch goals are met. The team is way ahead of the curve with respect to the interactions in their application.</td>
                                 </tr>
                             </tbody>
