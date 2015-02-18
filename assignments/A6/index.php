@@ -93,7 +93,8 @@
 
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
-                    <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress on the interaction design. Using <a href=http://d.ucsd.edu/class/intro-hci/2015/lab/lab4>the handlebars techniques you learned in lab</a>, read data from JSON to customize the presentation of pages and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. Eventually, you will be required to send and retrieve data from your database as part of the final project requirements. But for now, you are only focusing on retrieving and manipulating fixed data that need not be updated on the back end. In terms of Lab 5, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. </p>
+                    <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress on the interaction design.</p>
+					<p> Using <a href=http://d.ucsd.edu/class/intro-hci/2015/lab/lab4>the handlebars techniques you learned in lab</a>, read data from JSON to customize the presentation of pages and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. Eventually, you will be required to send and retrieve data from your database as part of the final project requirements. But for now, you are only focusing on retrieving and manipulating fixed data that need not be updated on the back end. In terms of Lab 5, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. As an example, imagine you're developing Yelp, then you should have a list for each restaurant and each restaurant page fully rendered, but no need to track ratings or reviews.</p>
                     <p>Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
                 </div>
 				<div id="instudio" class="sidenav-anchor">
@@ -157,9 +158,9 @@
                                 <tr>
                                     <td>Goals Met<br /><span style="color:lightGray;">4 points</span></td>
                                     <td>0: No goals were met.</td>
-                                    <td>1: Only a few goals were met.</td>
-                                    <td>3: Most, but not all, of the goals were met.</td>
-                                    <td>4: All goals were met. Stretch goals need not be met.</td>
+                                    <td>1: Only a few goals or equivalent were met.</td>
+                                    <td>3: Most, but not all, of the goals or equivalent were met.</td>
+                                    <td>4: All goals or equivalent were met. Stretch goals need not be met.</td>
                                 </tr>
                                 <tr>
                                     <td>Development Plan: Quality & Updates<br /><span style="color:lightGray;">3 points</span></td>

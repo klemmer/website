@@ -162,9 +162,9 @@
                                 <tr>
                                     <td>Goals<br /><span style="color:lightGray;">3 points</span></td>
                                     <td>0: No goals were met.</td>
-                                    <td>1: Only a few goals were met.</td>
-                                    <td>2: Most, but not all, of the goals were met.</td>
-                                    <td>3: All goals were met.</td>
+                                    <td>1: Only a few goals or equivalent were met.</td>
+                                    <td>3: Most, but not all, of the goals or equivalent were met.</td>
+                                    <td>4: All goals or equivalent were met. Stretch goals need not be met.</td>
                                 </tr>
                                 <tr>
                                     <td>Updated Development Plan<br /><span style="color:lightGray;">2 points</span></td>
