@@ -209,7 +209,7 @@
 						<li>Storyboards should be easier to follow, try adding _____.</li>
 						<li>Prototype interfaces should be more different.</li>
 						<li>I wish the prototype had more details.</li>
-						<li>Storyboards do not address _____(user problem/need), you might want to add _____.
+						<li>Storyboards do not address _____(user problem/need), you might want to add _____.</li>
 					</ul>
                 </div>
 				<div id='instudio' class='sidenav-anchor'>

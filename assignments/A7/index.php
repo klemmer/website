@@ -100,6 +100,15 @@
 					<p>
                 </div>
 				<div id="submit" class="sidenav-anchor">
+                    <h2>3 things you don't need to do this week</h2>
+                    These will happen in future assignments.
+                    <ol>
+                    <li>Write persistent data</li>
+                    <li>Handle queries</li>
+                    <li>Make it pretty</li>
+                    </ol>
+                </div>
+				<div id="submit" class="sidenav-anchor">
                     <h2>In Studio</h2>
 					<p>In studio, to follow up this assignment, you will receive feedback in the form of a brief heuristic evaluation from another member of your studio directly. Your team will pool that feedback, update your implementation plan accordingly, and then present your app to the whole studio.</p>
 				</div>
@@ -194,9 +203,9 @@
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
                     <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/forms/d/1zEuqIaq3p6SiGfjZRC3oQo0vVnITzyxxCWiWml6ojkM">During studio, click here to assess your group's work as a collective unit.</a>
+                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1RZhTl5IablTnyqM1ogS6QFWxxJlmlp8Ixrj2cBwuz3Q/">During studio, click here to assess your group's work as a collective unit.</a>
                         </br>
-                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/forms/d/1jKtF2tkWJHJyQfMjLZIAXIYhzaR8-892DA9vDepVqhI"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1AeU1Gv9M-s-sipgRR4WeEss4opHSsqvex5ZVvGin9Xg/"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
             </div>

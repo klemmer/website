@@ -92,14 +92,14 @@
 
                 <div id="plan" class="sidenav-anchor">
                     <h4>Launch Online Test</h4>
-                    <p>We are going to be using <a href="http://analytics.google.com" target="_blank">Google Analytics</a> to run the A/B test you planned last week.</p>
-                    <p><strong>Google Analytics does not recruit users for you.</strong> You will recruit your own users.</p>
+                    <p>We are going to be using <a href="http://woopra.com" target="_blank">Woopra</a> to run the A/B test you planned last week.</p>
+                    
                     <p>Since you will be statistically analyzing the results, recruit <strong>at least 20 users</strong>. Put another way, that means that each person on your team shoud recruit at least 7 people each: a couple dorm-mates and a few family members and your basically there. You can also use social media like Facebook and Twitter to recruit. You can even recruit other people in class! Make sure to launch your test several days before the deadline. How you schedule your analysis around your implementation plan is up to you. Do what's best for your app and your group. <a href=http://blog.optimizely.com/2013/04/30/71-things-to-ab-test>Here's some ideas from Optimizely.</a></p>
                 </div>
 
                 <div id="results" class="sidenav-anchor">
                     <h4>Online Test Results</h4>
-                    <p>Collect your results from your A/B test. Present your results and discuss your findings. Perform any necessary number-crunching and statistical analysis of your data. Also, assess the strength of your data (for example, using a chi-squared test if applicable). Can you draw solid conclusions or are additional tests needed? What changes would you make based on these results?</p>
+                    <p>Collect your results from your A/B test. Present your results and discuss your findings. Perform any necessary number-crunching and statistical analysis of your data. <a href="http://www.houseofkaizen.com/conversion-rate-optimisation/resources/calculators/split-test-significance"> This tool should help. </a> Also, assess the strength of your data (for example, using a chi-squared test if applicable). Can you draw solid conclusions or are additional tests needed? What changes would you make based on these results?</p>
                 </div>
 
                 <div id="fitfinish" class="sidenav-anchor">

@@ -272,6 +272,12 @@
     <img src="2014-lab-07-databases-final.016.jpg" class="img-responsive col-md-6"
       title="4" />
     <div class="col-md-5">
+    	 <div class="debug">
+        <h4>How will this lab help me?</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>This lab will get you well-versed in using databases. 
+          	They will form an important portion of your app and future assignments. </p></div>
+      </div>
 
     </div>
   </div>
@@ -586,6 +592,15 @@ function afterSaving(err) { // this is a callback
           <p>Mongo isn't running!  Did you remember to run the <code>check-setup.sh</code> script?</p>
         </div>
       </div>
+      
+         <div class="debug">
+        <h4>Debug</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>When I go to localhost:3000, there are no placeholders like described in the lab slides?</p></span>
+          <p>Once you define the schema (next 4 slides), they appear!</p>
+        </div>
+      </div>   
+      
     </div>
   </div>
 <hr></hr>
@@ -682,7 +697,11 @@ function afterSaving(err) { // this is a callback
           <span class="lead"><p>I can't access res in my callback.</p></span>
           <p>You need to declare the callback function within the projectInfo function to get access to res.</p>
         </div>
+        <div class="well well-sm">
+          <p>Remember that the ID field is automatically generated and is called "_id"</p>
+        </div>
       </div>
+      
     </div>
   </div>
 <hr></hr>
@@ -743,6 +762,12 @@ function afterSaving(err) { // this is a callback
           <span class="lead"><p>Doesn't work and I can't findout why!</p></span>
           <p>In your callback, make sure there's a 'if (err) { console.log(err) }'. What does the console output say?</p>
         </div>
+         <div class="well well-sm">
+          <span class="lead"><p> When I'm working on the delete part , everything is deleted when I click on the delete button. Is there a way to get them back?</p></span>
+          <p>You can run node initDB.js. It will reset the db for you.</p>
+        </div>
+       
+        
       </div>
 
       <div class="code">
@@ -763,6 +788,9 @@ function afterSaving(err) { // this is a callback
     <img src="2014-lab-07-databases-final.051.jpg" class="img-responsive col-md-6"
       title="35" />
     <div class="col-md-5">
+    	
+
+    	
 
     </div>
   </div>
@@ -775,7 +803,18 @@ function afterSaving(err) { // this is a callback
     <img src="2014-lab-07-databases-final.052.jpg" class="img-responsive col-md-6"
       title="36" />
     <div class="col-md-5">
-
+    	<div class="debug">
+        <h4>Debug Hints</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>When I add a project using the form, the new project gets added to the top instead of the bottom of the page as it's supposed to. How can I fix this?</p></span>
+          <p>The mongoose date constructor seems to choose a random date when only given a month and day. The query displaying the results is sorting by date, if you add a year to your date input it will use that to create the date and place the image in the correct location.</p>
+        </div>
+         <div class="well well-sm">
+          <span class="lead"><p> The dates for all the projects are displayed as a day before its actual date.</p></span>
+          <p>It is just due to time zone stuff (we are in pacific time not UTC) so the days are off by like 8 hours and that messes with the dates. </p>
+        </div>
+      </div>
+      
     </div>
   </div>
 <hr></hr>
@@ -792,12 +831,15 @@ function afterSaving(err) { // this is a callback
         <video src='video/practice-addproject-27146.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
       </div>
 
+
       <div class="debug">
         <h4>Debug Hints</h4>
         <div class="well well-sm">
-          <span class="lead"><p>Doesn't work and I can't findout why!</p></span>
+          <span class="lead"><p>Doesn't work sand I can't findout why!</p></span>
           <p>In your callback, make sure there's a 'if (err) { console.log(err) }'. What does the console output say?</p>
         </div>
+        
+
       </div>
 
       <div class="code">
@@ -865,6 +907,15 @@ git commit -m "putting it together lab"</code></pre>
           <li><a href='https://www.heroku.com' target="_blank">Heroku</a></li>
         </ul>
       </div>
+
+      <div class="debug">
+        <h4>Debug</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>I don't really want to give my credit card to a company I dont trust and am not buying a product from. Is there any alternative to adding this addon?</p></span>
+          <p>We don't know of any other way!</p>
+        </div>
+      </div>
+      
     </div>
   </div>
 <hr></hr>
