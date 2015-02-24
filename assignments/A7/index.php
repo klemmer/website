@@ -130,10 +130,11 @@
                     <h2>Submit</h2>
                     <ul>
                         <li>The URL of the prototype version that you want us to see. Note: the URL must work at least until your assignment is graded. If it doesn't work, you'll receive no credit. <b>(Functionality, Data/Templates, Mobile Design)</b></li>
-                        <li>The shared Github URL for your project, JSON filename, template-using filename.<b>(Data & Templates)</b></li>
+                        <li>The shared Github URL for your project, JSON filename, template-using filename.<b>(Data & Templates)</b><br></li>
+                        (Note: Templates were taught in Lab 4, slides 37-38, e.g: {{#each projects}}. We don't require using partials with handlebars right now (If you don't know what it means, it's all right! ))
                         <li>The PDF of your development plan that you submitted last week. <b>(Goals)</b></li>
                         <li>The PDF of your updated development plan. (<i>We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison.</i>) <b>(Updated Development Plan)</b></li>
-                        <li>2-3 high level sentences outlining the task that you will have users do next week. This should include any needed login/password information. As an example, for an app concerning office hours: Make an appointment with a professor and mark it public so that other people can join. Then cancel this appointment and make a new one. <b>(Task description)</b></li>
+                        <li>2-3 high level sentences outlining the task that you will have users do next week. This should include any needed login/password information. As an example, for an app concerning office hours: Make an appointment with a professor and mark it public so that other people can join. Then cancel this appointment and make a new one. You should not tell us what to click; tell us the task to accomplish.<b>(Task description)</b></li>
                     </ul>
                     <p>Note: since we may grade your assignment up to a few days after submission, per the honor code, we expect that the prototype URL show the state of your prototype at the time of submission. You will very likely be updating your prototype after submission, but please do so on another version.</p>
                     <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
@@ -145,55 +146,54 @@
                         <table class="table">
                             <tbody>
                                 <tr>
-                                    <th id="guiding" valign="top">Category</th>
-                                    <th id="unsatisfactory" valign="top">Nope</th>
-                                    <th id="minimum" valign="top">Weak</th>
-                                    <th id="satisfactory" valign="top">Proficient</th>
-                                    <th id="above" valign="top">Mastery</th>
+                                    <th id="guiding" valign="top" align=right>Category</th>
+                                    <th id="nope" valign="top" colspan=3 align=center>Nope</th>
+                                    <th id="weak" valign="top" colspan=3 align=center>Weak</th>
+                                    <th id="proficient" valign="top" colspan=3 align=center>Proficient</th>
+                                    <th id="mastery" valign="top" colspan=3 align=center><a href=../../logistics.html#Submit>Mastery</a></th>
                                 </tr>
                                 <tr>
                                     <td>Functionality<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No pages are connected and interactive. The app is not available through heroku or equivalent.</td>
-                                    <td>1: Prototype lacks a lot of features or has many bugs.</td>
-                                    <td>2: Prototype is mostly complete but may still lack one or two features.</td>
-                                    <td>3: Prototype is completely functional and ready for user testing. While not completely polished, the overall look and feel is reflective of the final prototype.</td>
+                                    <td colspan=3>No pages are connected and interactive. The app is not available through heroku or equivalent.</td>
+                                    <td colspan=3>Prototype lacks a lot of features or has many bugs.</td>
+                                    <td colspan=3>Prototype is mostly complete but may still lack one or two features.</td>
+                                    <td colspan=3>Prototype is completely functional and ready for user testing. While not completely polished, the overall look and feel is reflective of the final prototype.</td>
                                 </tr>
                                 <tr>
                                     <td>Data/Templates<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td colspan=2>No Github URL; or if Github URL present, no data customization.</td>
-                                    <td>1: Data customization (e.g., JSON/Handlebars) in key places.</td>
-                                    <td>2: Pervasive data customization and templating. All major functionality is templated rather than copied & pasted.</td>
+                                    <td colspan=4>No Github URL; or if Github URL present, no data customization.</td>
+                                    <td colspan=4>Data customization (e.g., JSON/Handlebars) in key places.</td>
+                                    <td colspan=4>Pervasive data customization and templating. All major functionality is templated rather than copied & pasted.</td>
                                 </tr>
                                 <tr>
                                     <td>Mobile Design<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: Prototype is not designed for a mobile form factor.</td>
-                                    <td>1: Minimal attempt to design the prototype for a mobile form factor.</td>
-                                    <td>2: Prototype is somewhat designed for a mobile form factor.</td>
-                                    <td>3: The prototype's information architecture is well-tuned for a mobile form factor.</td>
+                                    <td colspan=3>Prototype is not designed for a mobile form factor.</td>
+                                    <td colspan=3>Minimal attempt to design the prototype for a mobile form factor.</td>
+                                    <td colspan=3>Prototype is somewhat designed for a mobile form factor.</td>
+                                    <td colspan=3>The prototype's information architecture is well-tuned for a mobile form factor.</td>
                                 </tr>
                                 <tr>
                                     <td>Goals<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No goals were met.</td>
-                                    <td>1: Only a few goals or equivalent were met.</td>
-                                    <td>3: Most, but not all, of the goals or equivalent were met.</td>
-                                    <td>4: All goals or equivalent were met. Stretch goals need not be met.</td>
+                                    <td colspan=3>No goals were met.</td>
+                                    <td colspan=3>Only a few goals or equivalent were met.</td>
+                                    <td colspan=3>Most, but not all, of the goals or equivalent were met.</td>
+                                    <td colspan=3>All goals or equivalent were met. Stretch goals need not be met.</td>
                                 </tr>
                                 <tr>
                                     <td>Updated Development Plan<br /><span style="color:lightGray;">2 pts</span></td>
-                                    <td>0: No updates to plan.</td>
-                                    <td>1: Plan reflects some minor changes.</td>
-                                    <td>2: Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable.</td>
-                                    <td>3: Plan is detailed and reflects progress, new tasks, and any changes to previous tasks.</td>
+                                    <td colspan=4>No significant updates to plan, or plan.</td>
+                                    <td colspan=4>Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable.</td>
+                                    <td colspan=4>Plan is detailed and reflects progress, new tasks, and any changes to previous tasks.</td>
                                 </tr>
                                 <tr>
-                                    <td headers="guiding"><br>Task Description<br><span style="color:lightGray;"><span style="color:lightGray;">2 pts</span></td>
-                                    <td >Task description missing, shorter than 2 sentences, or extremely vague.</td>
-                                    <td colspan=2 align=middle> 2-3 sentence task description present. Task lacks clarity and would be confusing to user. Not clear that you'll learn what you need to improve your app.</td>
-                                    <td >The 2-3 sentences clearly describe a concrete task that reflects your app's core functionality. The task will help you learn what you need to improve your app.</td>
+                                    <td headers="guiding">Task Description<br><span style="color:lightGray;">2 pts</span></td>
+                                    <td colspan=4>Task description missing, shorter than 2 sentences, or extremely vague.</td>
+                                    <td colspan=4>2-3 sentence task description present. Task is either overly vague (confusing) or too specific (telling us what buttons to click). Not clear that you'll learn what you need to improve your app.</td>
+                                    <td colspan=4>The 2-3 sentences clearly describe a concrete task that reflects your app's core functionality. The task will help you learn what you need to improve your app.</td>
                                 </tr>
                                 <tr>
                                     <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 pt. Reserved for unusually impressive submissions.</span></td>
-                                    <td colspan=3 align=right>Your prototype is amazing and the TAs are extremely impressed with how complete it is. Not only is everything working, you have either solved an incredibly difficult engineering problem or you have introduced an extremely unique design. Your prototype shows thought and care. You should turn your app into a start-up or at least bring it to market.</td>
+                                    <td colspan=11 align=right>Your prototype is amazing and the TAs are extremely impressed with how complete it is. Not only is everything working, you have either solved an incredibly difficult engineering problem or you have introduced an extremely unique design. Your prototype shows thought and care. For example, even though not required for this week, you used a real database (Mongo) and made it sing.</td>
                                 </tr>
                             </tbody>
                         </table>

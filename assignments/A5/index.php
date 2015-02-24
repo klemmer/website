@@ -173,7 +173,7 @@
                                     <td>No development plan or development plan without deadlines.</td>
                                     <td>The student's development plan does not address every step of development and does not create clear actionable tasks. The timeline seems haphazard and the deadlines are obviously impossible to follow.</td>
                                     <td>The development plan has several reasonable steps for development, but they are not clearly defined or do not cover all aspects of development. The timeline is well-organized and mostly doable, although a few of the deadlines seem idealistic or unreasonable.</td>
-                                    <td>The development plan has many distinct, logical steps that give a clear path for development. The timeline is well-organized, has feasible deadlines, and takes into account time for unforeseen issues.</td>
+                                    <td>The development plan has many distinct, logical steps that give a clear path for development. The timeline is well-organized, has feasible deadlines, has an owner assigned, and takes into account time for unforeseen issues.</td>
                                 </tr>
                                 <tr>
                                     <td>Home Screen &amp; Key Screens<br /><span style="color:lightGray;">3 points</span></td>
