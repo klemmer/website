@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+thu<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -129,7 +129,7 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
-                        <li>The URL of the prototype version that you want us to see. Note: the URL must work at least until your assignment is graded. If it doesn't work, you'll receive no credit. <b>(Functionality, Data/Templates, Mobile Design)</b></li>
+                        <li>The URL of the prototype version that you want us to see. Note: the URL must work at least until your assignment is graded. If it doesn't work, you'll receive no credit. Also, please let us know which mobile platform you tested it for: Andoid, iOS or mobile emulator on chrome or some other browser <b>(Functionality, Data/Templates, Mobile Design)</b></li>
                         <li>The shared Github URL for your project, JSON filename, template-using filename.<b>(Data & Templates)</b><br></li>
                         (Note: Templates were taught in Lab 4, slides 37-38, e.g: {{#each projects}}. We don't require using partials with handlebars right now (If you don't know what it means, it's all right! ))
                         <li>The PDF of your development plan that you submitted last week. <b>(Goals)</b></li>

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Introduction to Human-Computer Interaction">
-	<title>Intro to HCI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduction to Human-Computer Interaction">
+    <title>Intro to HCI</title>
 
-	<!-- Bootstrap -->
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="../css/hci.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -20,18 +20,18 @@
     </head>
     <style>
     .judge .img-circle{
-    	width: 140px;
-    	height: 140px;
+        width: 140px;
+        height: 140px;
     .judge{
-    	float: left;
-    	height: 250px;
-    	text-align: left;
+        float: left;
+        height: 250px;
+        text-align: left;
     }
     .featurette-heading{
-    	padding-bottom: 30px;
+        padding-bottom: 30px;
     }
     .lead span{
-    	font-weight: bold;
+        font-weight: bold;
     }
     .lead .detail{
       font-size: 16px;
@@ -90,14 +90,14 @@
   <div class="jumbotron">
    <h3>COGS 120/CSE 170 Intro to Human-Computer Interaction Design</h3>
    <h1>Final Presentation</h1>
-   <p>Friday, March 12, 12:30pm - 2:30pm</p>
+   <p>Thursday, March 12, 12:30pm - 1:50pm</p>
    <p>Copley International Conference Center 101</p>
    <!-- <p><a class="btn btn-primary btn-lg" role="button">Contact me</a></p> -->
  </div>
 
  <div id="syllabus">
    <p class="lead">Come and check out how 200 UCSD students see the future of mobile interaction. </p>
-   <p class="lead">There will be 63 teams presenting their projects. </p>
+   <p class="lead">There will be 72 teams presenting their projects. </p>
 
    <hr>
 
@@ -106,40 +106,33 @@
      <div class="row featurette">
       <div class="col-md-7">
        <h2 class="featurette-heading">Agenda</h2>
-       <ul class="lead">
-        <li>
-         12:30pm --- Students arrive to set up posters
-       </li>
-       <li>
-        1:00pm --- Refreshments and social mixer
-      </li>
-      <li>
-       1:30pm --- Each team presents a 30-second pitch of their work.
-     </li>
-     <li>
-       1:45pm --- Poster session and team demonstrations
-     </li>
-     <li>
-       2:15pm --- Results and Closing Remarks
-    </li>
-           <p></p>
-<p>
-  Project themes:Boundaries, Emstudio6ment, Medicine, Health and Awareness, Cities, Consequences of Ubiquity, Community, Extending Memory
-</p>
+        <ul class="lead">
+            <li>
+            12:30pm --- Each team presents a 30-second pitch of their work.
+            </li>
+            <li>
+            1:10pm --- Students set up posters
+            </li>
+            <li>
+            1:15pm --- Poster session and team demonstrations
+            </li>
+            <li>
+            1:45pm --- Results and Closing Remarks
+            </li>
+        </ul>
     <p>
-    Most Creative: <a href=#>Driveaway</a><br>
-    Most Human-Centered: <a href=#>Lost In Translation</a><br>
-    Best Implementation: <a href=#>GradeSource++</a><br>
-    Social Impact: <a href=#>Resupply</a><br>
-    Best Pitch: <a href=#>GoHydrate</a><br>
-        <br>
-    
-    </p></ul>
- </div>
-<div class="col-md-5">
- <img class="featurette-image img-responsive" alt="project themes:Boundaries, Emstudio6ment, Medicine, Health and Awareness, Cities, Consequences of Ubiquity, Community, Extending Memory" src="hci.png">
-
-</div>
+      Project themes: Developing Networks & Augmenting Bridges, Extended Sensing, Storytelling Empathy and Metaphor, Campus Life, Becoming Better Students, Design for the Community, Mindfulness    </p>
+        <ul>
+            <li>Most Creative:</li>
+            <li>Most Human-Centered:</li>
+            <li>Best Implementation:</li>
+            <li>Social Impact:</li>
+            <li>Best Pitch:</li>
+        </ul>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" alt="project themes: Developing Networks & Augmenting Bridges, Extended Sensing, Storytelling, Empathy & and Metaphor, Campus Life, Becoming Better Students, Design for the Community, Mindfulness" src="hci.png">
+    </div>
 </div>
 
 
@@ -208,52 +201,23 @@ $(document).ready(function(){
 
     // $.getJSON('./judge/info.json', function(data){
 
-   var $data=[]
-   /*var $data=[
+   var $data=[
      {
-      "name":"Greg Horowitt",
-      "photo":"",
-      "title":"Founding Partner and Managing Director of T2 Venture Capital",
+      "name":"Don Norman",
+      "photo":"Don_Norman.jpg",
+      "title":"Director, Design Lab",
     },
     {
-      "name":"James Hollan",
-      "photo":"",
-      "title":"Distributed Cognition and Human Computer Interaction Laboratory",
+      "name":"Gad Shaanan",
+      "photo":"Gad_Shaanan.jpg",
+      "title":"CEO, GadLight",
     },
     {
-      "name":"Jay Kunin",
-      "photo":"",
-      "title":"Director of the Moxie Center",
-    },
-    {
-      "name":"Nadir Weibel",
-      "photo":"",
-      "title":"UCSD Computer Science and Engineering",
-    },
-    {
-      "name":"Sheehan",
-      "photo":"",
-      "title":"Chief of Staff for Calit2",
-    },
-    {
-      "name":"Banker White",
-      "photo":"",
-      "title":"Mirabel Pictures and WeOwnTV",
-    },
-    {
-      "name":"Jan Borchers",
-      "photo":"",
-      "title":"Media Computing Group at RWTH Aachen University",
-    },
-    {
-      "name":"Jon Kies",
-      "photo":"",
-      "title":"Sr. Director User Experience, Qualcomm",
+      "name":"Elana Pacenti",
+      "photo":"Elana_Pacenti.jpg",
+      "title":"Director, NewSchool of Architecture + Design",
     }
-
-
-
-  ]; */
+  ];
 
     for (var i=0;i<$data.length;++i){
      var $judge=$("<div>", {id: "judge"+i, class: "col-lg-3 judge"});
@@ -331,57 +295,56 @@ $(document).ready(function(){
 
      var $studio2=[
      {
-      "name":"trendr",
-      "link": "http://trendr-cogs120.herokuapp.com",
-      "photo":"",
-      "title":"Kevin Mach, Kevin Nguyen, Michelle Wang"
-    },
-    {
-      "name":"Salehound",
-      "link": "http://salehound.herokuapp.com",
-      "photo":"",
-      "title":"Amon Neequay, Christine Lao, Josef Goodyear"
-    },{
-      "name":"study-bud",
-      "link": "http://study-bud.herokuapp.com",
-      "photo":"",
-      "title":"Leta He, Heather Lee, Jamie Yang"
-    },{
-      "name":"Skillzone",
-      "link": "http://skillzone.herokuapp.com",
-      "photo":"",
-      "title":"John (Jingchun) Zhou, Simon Bui, Vivian (Duwei) Wang"
-    },{
       "name":"eggsnramen",
       "link": "http://eggsnramen.herokuapp.com",
       "photo":"",
       "title":"Peter Yao, Joshua Miller, Chloe Lopez"
-    },{
-      "name":"Engineering Wine Society",
-      "link": "http://engineeringwinesociety.herokuapp.com",
-      "photo":"",
-      "title":"Tyler Pollak, Sean Rowan, Jared Arnold"
-    },{
-      "name":"weatherwear",
-      "link": "http://wwhome.herokuapp.com",
-      "photo":"",
-      "title":"Clara Chao, Aaron Tom, Su Kim"
-    },{
-      "name":"Triton Textbook Exchange",
-      "link": "http://team100textbook.herokuapp.com",
-      "photo":"",
-      "title":"Emma Sayed, Kevin Ma, Justin Marquez, Kami Wan"
-    },{
-      "name":"Musey",
-      "link": "http://fiestanormal.com/musey",
-      "photo":"",
-      "title":"Arjun Iyer, Ardavan Amini, Stefan Rimola"
-    },{
-      "name":"Weyaka",
-      "link": "http://team500test1.herokuapp.com",
-      "photo":"",
-      "title":"Wes Okuhara, Kathy Hoang, Yashna Bowen"
-    }
+     },{
+       "name":"Engineering Wine Society",
+       "link": "http://engineeringwinesociety.herokuapp.com",
+       "photo":"",
+       "title":"Tyler Pollak, Sean Rowan, Jared Arnold"
+     },{
+       "name":"Musey",
+       "link": "http://fiestanormal.com/musey",
+       "photo":"",
+       "title":"Arjun Iyer, Ardavan Amini, Stefan Rimola"
+     },{
+       "name":"Salehound",
+       "link": "http://salehound.herokuapp.com",
+       "photo":"",
+       "title":"Amon Neequay, Christine Lao, Josef Goodyear"
+     },{
+       "name":"Skillzone",
+       "link": "http://skillzone.herokuapp.com",
+       "photo":"",
+       "title":"John (Jingchun) Zhou, Simon Bui, Vivian (Duwei) Wang"
+     },{
+       "name":"study-bud",
+       "link": "http://study-bud.herokuapp.com",
+       "photo":"",
+       "title":"Leta He, Heather Lee, Jamie Yang"
+     },{
+       "name":"trendr",
+       "link": "http://trendr-cogs120.herokuapp.com",
+       "photo":"",
+       "title":"Kevin Mach, Kevin Nguyen, Michelle Wang"
+     },{
+       "name":"Triton Textbook Exchange",
+       "link": "http://team100textbook.herokuapp.com",
+       "photo":"",
+       "title":"Emma Sayed, Kevin Ma, Justin Marquez, Kami Wan"
+     },{
+       "name":"weatherwear",
+       "link": "http://wwhome.herokuapp.com",
+       "photo":"",
+       "title":"Clara Chao, Aaron Tom, Su Kim"
+     },{
+       "name":"Weyaka",
+       "link": "http://team500test1.herokuapp.com",
+       "photo":"",
+       "title":"Wes Okuhara, Kathy Hoang, Yashna Bowen"
+     }
 
   ];
 
@@ -407,18 +370,18 @@ $(document).ready(function(){
       "photo":"",
       "title":"Andrei Khmelnitski, Horea Porutiu, David Liberman"
     },{
-      "name":"Prompt",
+      "name":"fablr",
       "link": "http://fablr.herokuapp.com",
       "photo":"",
       "title":"Sonia Jimenez, Katie Huang, Saif Chaudhry"
     },{
       "name":"GameRev",
-      "link": "http://http://gamerev.herokuapp.com/",
+      "link": "http://gamerev.herokuapp.com/",
       "photo":"",
       "title":"Chuqi Qiu, David Williams, Michael LaPlante, Ian Gilmore"
     },{
       "name":"Geostories",
-      "link": "http://geostories.herokuapp.com/",
+      "link": "http://geostories3.herokuapp.com/",
       "photo":"",
       "title":"Mateo Vargas, Simon Hu, Joel Schow"
     },{
@@ -428,12 +391,12 @@ $(document).ready(function(){
       "title":"Kenia Duque, Jessica Cho, Steve Yoo"
     },{
       "name":"Linerub",
-      "link": "http://momentzapp.herokuapp.com/",
+      "link": "http://serene-anchorage-4578.herokuapp.com",
       "photo":"",
       "title":"Doris Liu, Nick Roberts, Ming Cheng"
     },{
       "name":"momentz",
-      "link": "http://serene-anchorage-4578.herokuapp.com",
+      "link": "http://momentzv2.herokuapp.com/",
       "photo":"",
       "title":"Sylvia Li, Julian Ostensen, Aditya Bansal"
     },{
@@ -510,32 +473,15 @@ $(document).ready(function(){
 
     var $studio5=[
     {
-      "name":"Jefany",
+      "name":"2 Yellow",
       "link": "#",
       "photo":"",
-      "title":"Fairy Bui, Jesse Bishop, Ny Saechao"
-    },
-    {
-      "name":"SSJ",
-      "link": "#",
-      "photo":"",
-      "title":"Jesse Ren, Shaina Wan, Sachi Pitkin"
-    },
-    {
-      "name":"The Scheduler",
-      "link": "#",
-      "photo":"",
-      "title":"Anmol Maini, Chris Li, Kenny Lee"
+      "title":"Leland Tran, Mitchell Farley, Sam Ko"
     },{
-      "name":"PodCats",
+      "name":"40s",
       "link": "#",
       "photo":"",
-      "title":"Brian Soe, Christine Do, Jesse Qin"
-    },{
-      "name":"NOATS",
-      "link": "#",
-      "photo":"",
-      "title":"Nishat Rustagi, Ryan Khalili, Vincent Xiao"
+      "title":"Aurnik Islam, Crystal Chung, Young Shiau"
     },{
       "name":"Dance Party Taco Bell",
       "link": "#",
@@ -547,6 +493,31 @@ $(document).ready(function(){
       "photo":"",
       "title":"Ashley M. Perez, Karen Kim, Ho-Wei Kang"
     },{
+      "name":"Jefany",
+      "link": "#",
+      "photo":"",
+      "title":"Fairy Bui, Jesse Bishop, Ny Saechao"
+    },{
+      "name":"NOATS",
+      "link": "#",
+      "photo":"",
+      "title":"Nishat Rustagi, Ryan Khalili, Vincent Xiao"
+    },{
+      "name":"PodCats",
+      "link": "#",
+      "photo":"",
+      "title":"Brian Soe, Christine Do, Jesse Qin"
+    },{
+      "name":"SSJ",
+      "link": "#",
+      "photo":"",
+      "title":"Jesse Ren, Shaina Wan, Sachi Pitkin"
+    },{
+      "name":"The Scheduler",
+      "link": "#",
+      "photo":"",
+      "title":"Anmol Maini, Chris Li, Kenny Lee"
+    },{
       "name":"TritonShare",
       "link": "#",
       "photo":"",
@@ -556,18 +527,7 @@ $(document).ready(function(){
       "link": "#",
       "photo":"",
       "title":"John Gamboa, Ray Yada, Vilan Le"
-    },{
-      "name":"40s",
-      "link": "#",
-      "photo":"",
-      "title":"Aurnik Islam, Crystal Chung, Young Shiau"
-    },{
-      "name":"2 Yellow",
-      "link": "#",
-      "photo":"",
-      "title":"Leland Tran, Mitchell Farley, Sam Ko"
     }
-
   ];
 
   for (var i=0;i<$studio5.length;++i){
@@ -581,40 +541,40 @@ $(document).ready(function(){
 
    var $studio6=[
     {
-      "name":"Shutter Space",
-      "link": "#",
-      "photo":"",
-      "title":"Jane Ryu, John Chin, Stephanie Liang"
-    },{
       "name":"Drink Buddy",
       "link": "#",
       "photo":"",
       "title":"Jason O'Connor, Mikaela Oen, Rachel Kim"
+    },{
+      "name":"i am here for",
+      "link": "#",
+      "photo":"",
+      "title":"Pin Wang, Xiaohui Tong, Yijun Zhang"
     },{
       "name":"iFridge",
       "link": "#",
       "photo":"",
       "title":"Jiayi Tao, Jingyuan Liu, Zhiyue Jin"
     },{
+      "name":"Meet Up Now",
+      "link": "#",
+      "photo":"",
+      "title":"Elliot Humphrey, Ganesh Datta, Jake Prasad"
+    },{
       "name":"Mood Map",
       "link": "#",
       "photo":"",
       "title":"Christian Memjie, Joanne Wu, Yenhsia Lin"
-    },{
-      "name":"I am here for",
-      "link": "#",
-      "photo":"",
-      "title":"Pin Wang, Xiaohui Tong, Yijun Zhang"
     },{
       "name":"Pair Fit",
       "link": "#",
       "photo":"",
       "title":"Andrew Simon, Nancy Acosta, Pritika Natraj"
     },{
-      "name":"Meet Up Now",
+      "name":"Shutter Space",
       "link": "#",
       "photo":"",
-      "title":"Elliot Humphrey, Ganesh Datta, Jake Prasad"
+      "title":"Jane Ryu, John Chin, Stephanie Liang"
     },{
       "name":"Tea Chat",
       "link": "#",

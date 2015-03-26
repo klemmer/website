@@ -137,11 +137,11 @@
 						<p>Make sure that your application isn’t going to throw an error because you forgot to implement a holding page - make it feel real, even if it’s not! If you have an online store where only one product works for testing purposes, make sure that is clear to your user.</p></i>
                 </div>
                 <div id="submit" class="sidenav-anchor">
-                    <h2>Team Submission</h2>
+                    <h2>Your Team's Submitted PDF should comprise</h2>
                     <ul>
                         <li>A list of HE violations</li>
                         <li>A list of changes your team has made and will make to your prototype. <b>(List of Changes)</b></li>
-                        <li>A link to a PDF of your development plan. (<i>We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison.</i>) <b>(Development Plan)</b> </li>
+                        <li>A snapshot of your development plan. We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison. Do not submit a link. <b>(Development Plan)</b> </li>
                         <li>URL of your prototype. <b>(Home Screen & Key Screens, Navigational Skeleton)</b></li>
 						<li>A paragraph summarizing the user, task, and how your project meets the studio brief. <b>(Brief Revisit Summary)</b></li>
                     </ul>

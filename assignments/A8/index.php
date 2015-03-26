@@ -200,8 +200,8 @@
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
                     <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a class="btn btn-primary" target="_blank"  href="https://docs.google.com/forms/d/1hEC5OPl_Mjjn9tqipX3mpZzOYrBEqVajUllSX6d1Vhc/edit">During studio, click here to assess your group's work as a collective unit.</a></br>
-                        <a class="btn btn-primary" target="_blank" style="margin-top: 10px" href="https://docs.google.com/forms/d/1FcWZ84WgKFtXkFhb6AFycxFRKcww5Ibn0XkJjhklvvc/edit?usp=drive_web"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a class="btn btn-primary" target="_blank"  href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1Tkx91b09KVt1IYpvusnxig2BdmtbNHw9w8oHaNm7AMk/edit">During studio, click here to assess your group's work as a collective unit.</a></br>
+                        <a class="btn btn-primary" target="_blank" style="margin-top: 10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1RVZbm6zWwH0O39JiJWt3TjwbfBfaoVyu95kvM_RZSuE"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
             </div>

@@ -91,16 +91,16 @@
                 </div>
 
                 <div id="plan" class="sidenav-anchor">
-                    <h4>Launch Online Test</h4>
-                    <p>We are going to be using <a href="http://woopra.com" target="_blank">Woopra</a> to run the A/B test you planned last week.</p>
+                    <h4>Launch Rate Comparison</h4>
+                    <p>We are going to be using <a href="http://woopra.com" target="_blank">Woopra</a> to run rate comparison you planned last week.</p>
                     
                     <p>Since you will be statistically analyzing the results, recruit <strong>at least 20 users</strong>. Put another way, that means that each person on your team should recruit at least 7 people each: a couple dorm-mates and a few family members and you're basically there. You can also use social media like Facebook and Twitter to recruit. You can even recruit other people in class! Make sure to launch your test several days before the deadline. How you schedule your analysis around your implementation plan is up to you. Do what's best for your app and your group. <a href=http://blog.optimizely.com/2013/04/30/71-things-to-ab-test>Here's some ideas from Optimizely.</a></p>
                 </div>
 
                 <div id="results" class="sidenav-anchor">
-                    <h4>Online Test Results</h4>
-                    <p>Collect your results from your A/B test. Present your results and discuss your findings. Perform any necessary number-crunching and statistical analysis of your data. <a href="http://www.houseofkaizen.com/conversion-rate-optimisation/resources/calculators/split-test-significance"> This tool should help. </a> Also, assess the strength of your data (for example, using a chi-squared test if applicable). Can you draw solid conclusions or are additional tests needed? What changes would you make based on these results?</p>
-                    <p>We expect you to use Woopla tracking for relevant events in your app to get a good idea of how users interact with your site. We do not expect you to use Funnel feature of Woopla to find breakdowns.</p>
+                    <h4>Results: Comparing Rates Online</h4>
+                    <p>Collect your results from your A/B test that compares rates between conditions. You can use your A condition as the 'Expected' Value and the B condition as the 'Observed'. Present your data and the results: show the inputs to your Chi-squared analysis, your calculations, the Chi-squared result, and the p value. <a href="http://www.houseofkaizen.com/conversion-rate-optimisation/resources/calculators/split-test-significance"> This tool should help. </a> Remember that a Chi-squared test compares rates, not times. Discuss your findings: can you draw solid conclusions or are additional tests needed? What changes would you make based on these results?</p>
+                    <p>Use Woopra to track the pages that users view on your app. (You do not need to use Woopra's funnel feature.)</p>
                 </div>
 
                 <div id="fitfinish" class="sidenav-anchor">
@@ -111,7 +111,7 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
-                        <li>The data that you collected. Organize this information so that we can get a sense of the raw data that you gathered. How many users did you find? What feedback (quantitative or qualitative) did you receive? We recommend organizing this information into a table or spreadsheet. <b>(Online Test Results)</b></li>
+                        <li>The data that you collected. Organize this information so that we can get a sense of the raw data that you gathered. Explicitly state how many participants were in each condition. What feedback (quantitative or qualitative) did you receive? We recommend organizing this information into a table or spreadsheet. <b>(Online Test Results)</b></li>
 
                         <li>Summary of your findings. You should present any statistical analysis that you performed, and any insights or discoveries that your test helped inform. <b>(Online Test Results)</b></li>
 
@@ -132,50 +132,51 @@
                             <tbody>
                                 <tr>
                                     <th id="guiding" valign="top">Category</th>
-                                    <th id="unsatisfactory" valign="top">Nope</th>
-                                    <th id="minimum" valign="top">Adequacy</th>
-                                    <th id="satisfactory" valign="top">Proficiency</th>
-                                    <th id="above" valign="top">Mastery</th>
+                                    <th colspan=5 id="unsatisfactory" valign="top">Nope</th>
+                                    <th colspan=5 id="minimum" valign="top">Adequacy</th>
+                                    <th colspan=5 id="satisfactory" valign="top">Proficiency</th>
+                                    <th colspan=5 id="above" valign="top">Mastery</th>
                                 </tr>
                                 <tr>
                                     <td>Online Test Results<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No conclusions listed.</td>
-                                    <td>1: Either only statistical analysis or insights are given.</td>
-                                    <td>3: Statistical analysis has errors, or conclusions are trivial.</td>
-                                    <td>4: Statistical analysis is solid, and includes a clear assessment on the strength of the data. Conclusions are clear and straightforward.</td>
+                                    <td colspan=4>No conclusions listed.</td>
+                                    <td colspan=4>Either only statistical analysis or insights are given.</td>
+                                    <td colspan=4>Statistical analysis has errors. Two common errors: 1) using time as input to a CHI-squared test (CHI-squared compares rates). 2) assuming a 50% success rate as your 'expected', as opposed to using the rate in the A condition as 'expected'.</td>
+                                    <td colspan=4>Statistical analysis is correct. Conclusions are trivial: they don't engage the content of the design.</td>
+                                    <td colspan=4>Statistical analysis is correct, and includes a clear assessment on the strength of the data. Conclusions are clear and straightforward.</td>
                                 </tr>
                                 <tr>
                                     <td>List of Potential Revisions<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No revisions listed.</td>
-                                    <td>1: The revisions are obvious or trivial. The major problems are not addressed by the revisions.</td>
-                                    <td>3: Revisions are made without much consideration to the user experience. The revisions are chosen to cater to a lower level of technical difficulty.</td>
-                                    <td>4: Several possible revisions are presented for different portions of the user interface. The revisions are creative and address the major problems. Changes are clearly justified and informed from the data gathered (both in person and online).</td>
+                                    <td colspan=5>No revisions listed.</td>
+                                    <td colspan=5>The revisions are obvious or trivial. The major problems are not addressed by the revisions.</td>
+                                    <td colspan=5>Revisions are made without much consideration to the user experience. The revisions are chosen to cater to a lower level of technical difficulty.</td>
+                                    <td colspan=5>Several possible revisions are presented for different portions of the user interface. The revisions are creative and address the major problems. Changes are clearly justified and informed from the data gathered (both in person and online).</td>
                                 </tr>
 
                                 <tr>
                                     <td>Fit and Finish<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td colspan=2>0: Prototype is incomplete still has some bugs.</td>
-                                    <td>1: Prototype is complete, but may lack some details or polish.</td>
-                                    <td>2: Prototype is very polished, and ready to be presented.</td>
+                                    <td colspan=6>Prototype is incomplete still has some bugs.</td>
+                                    <td colspan=7>Prototype is complete, but may lack some details or polish.</td>
+                                    <td colspan=7>Prototype is very polished, and ready to be presented.</td>
                                 <tr>
 
                                 </tr>
                                 <tr>
                                     <td>Goals<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No goals were met.</td>
-                                    <td>1: Only a few goals or equivalent were met.</td>
-                                    <td>3: Most, but not all, of the goals or equivalent were met.</td>
-                                    <td>4: All goals or equivalent were met. Stretch goals need not be met.</td>
+                                    <td colspan=5>No goals were met.</td>
+                                    <td colspan=5>Only a few goals or equivalent were met.</td>
+                                    <td colspan=5>Most, but not all, of the goals or equivalent were met.</td>
+                                    <td colspan=5>All goals or equivalent were met. Stretch goals need not be met.</td>
                                 </tr>
                                 <tr>
                                     <td>Updated Development Plan<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td colspan=2>0: No updates or only minor changes to plan. </td>
-                                    <td>1: Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable. </td>
-                                    <td>2: Plan is detailed and reflect progress, new tasks, and any changes to previous tasks.</td>
+                                    <td colspan=6>No updates or only minor changes to plan. </td>
+                                    <td colspan=7>Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable. </td>
+                                    <td colspan=7>Plan is detailed and reflect progress, new tasks, and any changes to previous tasks.</td>
                                 </tr>
                                 <tr>
                                     <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
-                                    <td colspan=3 align=right>Not only are several possible revisions presented for different portions of the user interface, your revisions are extremely creative and approaches the problems in your interface in an effective and innovative way. An incredible amount of thought and consideration has gone into solving the underlying problems.</td></tr>
+                                    <td colspan=19 align=right>Not only are several possible revisions presented for different portions of the user interface, your revisions are extremely creative and approaches the problems in your interface in an effective and innovative way. An incredible amount of thought and consideration has gone into solving the underlying problems.</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -184,8 +185,8 @@
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
                     <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a class="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/1s5Anj5L-5u14OweSI6GhiytINjEo22S2mXunzkYYwaI">During studio, click here to assess your group's work as a collective unit.</a></br>
-                        <a class="btn btn-primary" target="_blank" style="margin-top: 20px" href="https://docs.google.com/forms/d/1siAeCt4rwMJe90uf6aPyUdV2-fq6cM-X2r5WQGuBp8U/"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a class="btn btn-primary" target="_blank" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1UDEDD-VkJaNlSkKz5q5htfU6_W1chiVzNvjt_a-qib8">During studio, click here to assess your group's work as a collective unit.</a></br>
+                        <a class="btn btn-primary" target="_blank" style="margin-top: 20px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1ixO49-zWN-zjxI_vp42_LVifxzv5PYrpZfMmTAZuLJo"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
 
